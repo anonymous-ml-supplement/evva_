@@ -1,0 +1,168 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.1111111111111111,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "fb0883989f1df28384fe1a4da306ec330d5ff5ea929bfcec7981d293ada95bf9",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 2,
+  "arm": "always_verify",
+  "base_action": "click('57')",
+  "branch_action_validation": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "allowed_verbs": [
+        "click"
+      ],
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true
+  },
+  "branch_action_validation_signature": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "fb0883989f1df28384fe1a4da306ec330d5ff5ea929bfcec7981d293ada95bf9",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "8fbba57269cd99538576bc1b6990b434e2159059c7be0233b5064a38a1bd17bb",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "continuation_action_count": 12,
+  "continuation_action_errors": [
+    {
+      "action": "click('211')",
+      "continuation_index": 8,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"211\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.1111111111111111,
+  "elapsed_seconds": 141.49167717700766,
+  "executed_candidate_action": "click('42')",
+  "expected_seed": 2,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "click('42')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.1111111111111111,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "fb0883989f1df28384fe1a4da306ec330d5ff5ea929bfcec7981d293ada95bf9",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "click('42')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "42",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.25.721.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "click('42')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": true,
+    "decision": "REPLACE",
+    "final_action": "click('42')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "42",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "42",
+        "name": "Forums",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 12.41572566702962,
+    "reason": "BID '57' (Notifications) is a valid clickable item but does not advance the task of locating/liking UniversityofBath submissions in the IAmA forum. A more relevant navigation is clicking 'Forums' (BID 42) to reach the forum list and then navigate to IAmA.",
+    "replacement_action": "click('42')",
+    "response_id": "resp_07a56173bef3b6b1016a850e798b24819597d19ba78c9ce0c7",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('42')\",\"task_match\":false,\"candidate_match\":true,\"reason\":\"BID '57' (Notifications) is a valid clickable item but does not advance the task of locating/liking UniversityofBath submissions in the IAmA forum. A more relevant navigation is clicking 'Forums' (BID 42) to reach the forum list and then navigate to IAmA.\"}",
+    "usage": {
+      "input_tokens": 2616,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1087,
+      "output_tokens_details": {
+        "reasoning_tokens": 960
+      },
+      "total_tokens": 3703
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "57",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "57",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "57",
+          "name": "Notifications (0)",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

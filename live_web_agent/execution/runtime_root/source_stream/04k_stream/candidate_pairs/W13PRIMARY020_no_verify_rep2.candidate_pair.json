@@ -1,0 +1,117 @@
+{
+  "actual_seed": 3,
+  "arm": "no_verify",
+  "base_action": "fill('54', 'sourdough baking')",
+  "base_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "sourdough baking"
+  },
+  "candidate_id": "W13PRIMARY020",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY020/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "99322123af85b2254ffb4eccb428701d4fa3836a3455cbcf8cad273927f367a1",
+  "cell": "GROUNDED_CONTENT_VALUE_SUBSTITUTION|STRONG",
+  "expected_pre_state_semantic_digest": "61a2d030d0b664ce96f278a18c71b755e9f8e6f1545bc73d13549cad28496138",
+  "expected_seed": 3,
+  "formal_candidate_id": "W13PRIMARY020",
+  "operator_id": "GROUNDED_CONTENT_VALUE_SUBSTITUTION",
+  "pre_state_semantic_digest": "61a2d030d0b664ce96f278a18c71b755e9f8e6f1545bc73d13549cad28496138",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 2,
+  "seed": 3,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "STRONG",
+  "task_name": "webarena_verified.5.606.2",
+  "verified_action": "fill('54', 'NYC transportation')",
+  "verified_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "NYC transportation"
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'NYC transportation')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "NYC transportation"
+    },
+    "latency_seconds": 11.442953186109662,
+    "reason": "BID 54 is the search box (appropriate for finding NYC forums), but the provided value 'sourdough baking' is unrelated to the task. Replacing with a NYC-focused query (e.g., 'NYC transportation') better advances the objective of finding a forum about NYC topics to post the question.",
+    "replacement_action": "fill('54', 'NYC transportation')",
+    "response_id": "resp_0bc16dc67645d06a016a850df5d0ec87d199e0c6a3b558aa9d",
+    "response_status": "completed",
+    "task_match": true,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'NYC transportation')\",\"task_match\":true,\"candidate_match\":false,\"reason\":\"BID 54 is the search box (appropriate for finding NYC forums), but the provided value 'sourdough baking' is unrelated to the task. Replacing with a NYC-focused query (e.g., 'NYC transportation') better advances the objective of finding a forum about NYC topics to post the question.\"}",
+    "usage": {
+      "input_tokens": 2642,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 888,
+      "output_tokens_details": {
+        "reasoning_tokens": 768
+      },
+      "total_tokens": 3530
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "sourdough baking"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

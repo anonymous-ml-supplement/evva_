@@ -1,0 +1,174 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.0,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "f3e36dafb79d0f0a42c293841b96447f3aa73c91afe0b27c4d8d22d18c454a96",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 22,
+  "arm": "no_verify",
+  "base_action": "fill('54', 'sushi restaurants')",
+  "branch_action_validation": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "allowed_verbs": [
+        "click",
+        "fill"
+      ],
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "sushi restaurants"
+  },
+  "branch_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "sushi restaurants"
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "f3e36dafb79d0f0a42c293841b96447f3aa73c91afe0b27c4d8d22d18c454a96",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "1ec3492ff3f816f5a73d6662c39c89db9384fd11b60a9610ae81442381cb77f7",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "sushi restaurants"
+  },
+  "continuation_action_count": 12,
+  "continuation_action_errors": [
+    {
+      "action": "click('145')",
+      "continuation_index": 6,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"145\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.0,
+  "elapsed_seconds": 173.30311806299142,
+  "executed_candidate_action": "fill('54', 'sushi restaurants')",
+  "expected_seed": 22,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "fill('54', 'sushi restaurants')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.0,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "f3e36dafb79d0f0a42c293841b96447f3aa73c91afe0b27c4d8d22d18c454a96",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "fill('54', 'sushi restaurants')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "54",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.1510.726.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "fill('54', 'author:jacyanthis subreddit:earthporn')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'author:jacyanthis subreddit:earthporn')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "author:jacyanthis subreddit:earthporn"
+    },
+    "latency_seconds": 7.993644702248275,
+    "reason": "The proposed fill uses an irrelevant query ('sushi restaurants') and does not advance the task of locating submissions by user jacyanthis in r/earthporn. BID '54' is the search box and is appropriate to use; replacing the value with a Reddit search query (author:jacyanthis subreddit:earthporn) will help find the target submissions to dislike.",
+    "replacement_action": "fill('54', 'author:jacyanthis subreddit:earthporn')",
+    "response_id": "resp_062c1106c6c27141016a850ffbeda087d18b3c27ea41c07310",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'author:jacyanthis subreddit:earthporn')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"The proposed fill uses an irrelevant query ('sushi restaurants') and does not advance the task of locating submissions by user jacyanthis in r/earthporn. BID '54' is the search box and is appropriate to use; replacing the value with a Reddit search query (author:jacyanthis subreddit:earthporn) will help find the target submissions to dislike.\"}",
+    "usage": {
+      "input_tokens": 2633,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 694,
+      "output_tokens_details": {
+        "reasoning_tokens": 512
+      },
+      "total_tokens": 3327
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "sushi restaurants"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

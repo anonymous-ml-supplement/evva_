@@ -1,0 +1,218 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.0,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "970caccda8a678747bc55c2d456b533625179197667cd5b1b1cb6483331a96bc",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 6,
+  "arm": "no_verify",
+  "base_action": "click('119')",
+  "branch_action_validation": {
+    "action_type": "click",
+    "bid": "119",
+    "node": {
+      "allowed_verbs": [
+        "click"
+      ],
+      "bid": "119",
+      "name": "Comments",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true
+  },
+  "branch_action_validation_signature": {
+    "action_type": "click",
+    "bid": "119",
+    "node": {
+      "bid": "119",
+      "name": "Comments",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "970caccda8a678747bc55c2d456b533625179197667cd5b1b1cb6483331a96bc",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "e0d83f8cba8e91ed33570092fb862197558a4fe63f952cfac7a277094a1cf035",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "click",
+    "bid": "119",
+    "node": {
+      "bid": "119",
+      "name": "Comments",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "continuation_action_count": 17,
+  "continuation_action_errors": [
+    {
+      "action": "click('37')",
+      "continuation_index": 1,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"37\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('543')",
+      "continuation_index": 2,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"543\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('416')",
+      "continuation_index": 3,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"416\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('416')",
+      "continuation_index": 5,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"416\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('416')",
+      "continuation_index": 7,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"416\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('416')",
+      "continuation_index": 9,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"416\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('416')",
+      "continuation_index": 13,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"416\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('416')",
+      "continuation_index": 15,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"416\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('152')",
+      "continuation_index": 17,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"152\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.0,
+  "elapsed_seconds": 282.47803957300493,
+  "executed_candidate_action": "click('119')",
+  "expected_seed": 6,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "click('119')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.0,
+  "native_terminal_task_info": {
+    "error": "Unauthorized url, terminating task"
+  },
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "970caccda8a678747bc55c2d456b533625179197667cd5b1b1cb6483331a96bc",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "click('119')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "119",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.17.67.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "click('42')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "click('42')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "42",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "42",
+        "name": "Forums",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 7.837013709824532,
+    "reason": "click('119') opens a post's comments (unspecified post) and does not navigate to the Books forum or ensure 'Hot' sorting. To reach the Books forum and its top posts, first open the Forums list by clicking 'Forums' (BID 42).",
+    "replacement_action": "click('42')",
+    "response_id": "resp_06cebf33a1b7d822016a850cec510c819499e3e3c83a7cd33d",
+    "response_status": "completed",
+    "task_match": true,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('42')\",\"task_match\":true,\"candidate_match\":false,\"reason\":\"click('119') opens a post's comments (unspecified post) and does not navigate to the Books forum or ensure 'Hot' sorting. To reach the Books forum and its top posts, first open the Forums list by clicking 'Forums' (BID 42).\"}",
+    "usage": {
+      "input_tokens": 2636,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 728,
+      "output_tokens_details": {
+        "reasoning_tokens": 576
+      },
+      "total_tokens": 3364
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "119",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "119",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "119",
+          "name": "Comments",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

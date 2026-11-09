@@ -1,0 +1,113 @@
+{
+  "actual_seed": 14,
+  "arm": "always_verify",
+  "base_action": "click('119')",
+  "base_validation_signature": {
+    "action_type": "click",
+    "bid": "119",
+    "node": {
+      "bid": "119",
+      "name": "Comments",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_id": "W13PRIMARY013",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY013/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "0d00a17a9a545eb9335797f906e64b11eaf82241aeec5fa491310833be580054",
+  "cell": "GROUNDED_TARGET_SUBSTITUTION|MILD",
+  "expected_pre_state_semantic_digest": "4586ee8a8dd8275167b477f43e0d90e71ccf9a64a6c6e043b23ffedffc5be7ac",
+  "expected_seed": 14,
+  "formal_candidate_id": "W13PRIMARY013",
+  "operator_id": "GROUNDED_TARGET_SUBSTITUTION",
+  "pre_state_semantic_digest": "4586ee8a8dd8275167b477f43e0d90e71ccf9a64a6c6e043b23ffedffc5be7ac",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 1,
+  "seed": 14,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "MILD",
+  "task_name": "webarena_verified.7.581.2",
+  "verified_action": "click('42')",
+  "verified_validation_signature": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "click('42')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "42",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "42",
+        "name": "Forums",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 4.8664260022342205,
+    "reason": "BID 119 is the 'Comments' link and does not lead to forum creation. To create a new forum, click the 'Forums' link (BID 42) which is the appropriate navigation target.",
+    "replacement_action": "click('42')",
+    "response_id": "resp_027b105aa73499ce016a850d5c115887d1bdf135fde0f2b0ed",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('42')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"BID 119 is the 'Comments' link and does not lead to forum creation. To create a new forum, click the 'Forums' link (BID 42) which is the appropriate navigation target.\"}",
+    "usage": {
+      "input_tokens": 2636,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 441,
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      },
+      "total_tokens": 3077
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "119",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "119",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "119",
+          "name": "Comments",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

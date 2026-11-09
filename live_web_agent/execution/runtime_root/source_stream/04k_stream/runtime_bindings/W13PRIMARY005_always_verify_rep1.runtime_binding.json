@@ -1,0 +1,18 @@
+{
+  "actual_seed": 12,
+  "arm": "always_verify",
+  "candidate_id": "W13PRIMARY005",
+  "candidate_pair": "../candidate_pairs/W13PRIMARY005_always_verify_rep1.candidate_pair.json",
+  "candidate_pair_sha256": "ff3fc71a46ea9a7af758a6bd4d8ca942e9de8de4fa014294288ca52be794ef9a",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY005/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "11bfbfc50d99491212ce854b6743f61ccc4ed0c4d24e56d651e53d87397d9470",
+  "expected_pre_state_semantic_digest": "ab8cc1c911909b89f13fc81f8888f01a8daa56ce005e7715d760e9dc1182af77",
+  "expected_seed": 12,
+  "formal_candidate_id": "W13PRIMARY005",
+  "pre_state_semantic_digest": "ab8cc1c911909b89f13fc81f8888f01a8daa56ce005e7715d760e9dc1182af77",
+  "replicate": 1,
+  "runtime_binding_protocol": "FROZEN_LIVE_BINDING_V1",
+  "seed": 12,
+  "split": "evaluation",
+  "task_name": "webarena_verified.4.597.2"
+}

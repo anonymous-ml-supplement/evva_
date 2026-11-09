@@ -1,0 +1,117 @@
+{
+  "actual_seed": 16,
+  "arm": "no_verify",
+  "base_action": "fill('54', 'plantsforcatparentx')",
+  "base_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "plantsforcatparentx"
+  },
+  "candidate_id": "W13PRIMARY015",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY015/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "41dd2b18d3c97f8338a033bf7174ccdddb772df5baa8e9165b4b7e13ebc72c39",
+  "cell": "GROUNDED_CONTENT_VALUE_SUBSTITUTION|MILD",
+  "expected_pre_state_semantic_digest": "790929f9e96a6a0acb70d609ccf385d4cefb1fa24eed066eed22201e4a78d8d4",
+  "expected_seed": 16,
+  "formal_candidate_id": "W13PRIMARY015",
+  "operator_id": "GROUNDED_CONTENT_VALUE_SUBSTITUTION",
+  "pre_state_semantic_digest": "790929f9e96a6a0acb70d609ccf385d4cefb1fa24eed066eed22201e4a78d8d4",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 1,
+  "seed": 16,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "MILD",
+  "task_name": "webarena_verified.7.583.2",
+  "verified_action": "fill('54', 'PlantsForCatParents')",
+  "verified_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "PlantsForCatParents"
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'PlantsForCatParents')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "PlantsForCatParents"
+    },
+    "latency_seconds": 7.6955794002860785,
+    "reason": "BID 54 is a valid fill target (search box) but the proposed value 'plantsforcatparentx' does not match the requested forum name/title. Filling the search box still does not create the forum, but replacing the value with the exact requested name 'PlantsForCatParents' is a safer correction for this field.",
+    "replacement_action": "fill('54', 'PlantsForCatParents')",
+    "response_id": "resp_0f7c12fa88044a1c016a850d86939c81949f43bdd9a1502fb4",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'PlantsForCatParents')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"BID 54 is a valid fill target (search box) but the proposed value 'plantsforcatparentx' does not match the requested forum name/title. Filling the search box still does not create the forum, but replacing the value with the exact requested name 'PlantsForCatParents' is a safer correction for this field.\"}",
+    "usage": {
+      "input_tokens": 2661,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 665,
+      "output_tokens_details": {
+        "reasoning_tokens": 512
+      },
+      "total_tokens": 3326
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "plantsforcatparentx"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

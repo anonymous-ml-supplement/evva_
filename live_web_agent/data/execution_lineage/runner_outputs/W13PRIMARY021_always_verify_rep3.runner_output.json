@@ -1,0 +1,168 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.5,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "03c96409f22a11cdb08b94a52653ece03cc3c293f04557427ef788495eba7589",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 20,
+  "arm": "always_verify",
+  "base_action": "click('119')",
+  "branch_action_validation": {
+    "action_type": "click",
+    "bid": "62",
+    "node": {
+      "allowed_verbs": [
+        "click"
+      ],
+      "bid": "62",
+      "name": "Submit",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true
+  },
+  "branch_action_validation_signature": {
+    "action_type": "click",
+    "bid": "62",
+    "node": {
+      "bid": "62",
+      "name": "Submit",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "03c96409f22a11cdb08b94a52653ece03cc3c293f04557427ef788495eba7589",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "d943aedf7730765993f98d7a5c8fefda17237be9e3756d1ba79aff39208ab17e",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "click",
+    "bid": "62",
+    "node": {
+      "bid": "62",
+      "name": "Submit",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "continuation_action_count": 6,
+  "continuation_action_errors": [
+    {
+      "action": "click('395')",
+      "continuation_index": 5,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"395\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.5,
+  "elapsed_seconds": 92.45529732099385,
+  "executed_candidate_action": "click('62')",
+  "expected_seed": 20,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "click('62')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.5,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "03c96409f22a11cdb08b94a52653ece03cc3c293f04557427ef788495eba7589",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "click('62')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "62",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.12.620.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "click('62')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": true,
+    "decision": "REPLACE",
+    "final_action": "click('62')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "62",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "62",
+        "name": "Submit",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 5.662320317234844,
+    "reason": "BID '119' (Comments) is a valid clickable element but it does not advance the task of creating a new forum post. To create/submit a post (title/body), clicking the 'Submit' control (BID '62') is the appropriate grounded action from the available action surface.",
+    "replacement_action": "click('62')",
+    "response_id": "resp_01f62a0201688f13016a850e108b8087d19ee1905a58aa150a",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('62')\",\"task_match\":false,\"candidate_match\":true,\"reason\":\"BID '119' (Comments) is a valid clickable element but it does not advance the task of creating a new forum post. To create/submit a post (title/body), clicking the 'Submit' control (BID '62') is the appropriate grounded action from the available action surface.\"}",
+    "usage": {
+      "input_tokens": 2627,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 417,
+      "output_tokens_details": {
+        "reasoning_tokens": 256
+      },
+      "total_tokens": 3044
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "119",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "119",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "119",
+          "name": "Comments",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

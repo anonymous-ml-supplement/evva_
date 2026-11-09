@@ -1,0 +1,113 @@
+{
+  "actual_seed": 0,
+  "arm": "no_verify",
+  "base_action": "click('57')",
+  "base_validation_signature": {
+    "action_type": "click",
+    "bid": "57",
+    "node": {
+      "bid": "57",
+      "name": "Notifications (0)",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_id": "W13PRIMARY028",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY028/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "ca55d5732bae15e1d4442fc1c0f4bd474040847d6d95e95b4ebd7f09cc5bf677",
+  "cell": "GROUNDED_TARGET_SUBSTITUTION|STRONG",
+  "expected_pre_state_semantic_digest": "644ccfc3f56e24d82d22527aa65c9cf9da968d47373d46369c683a6f647f3e1b",
+  "expected_seed": 0,
+  "formal_candidate_id": "W13PRIMARY028",
+  "operator_id": "GROUNDED_TARGET_SUBSTITUTION",
+  "pre_state_semantic_digest": "644ccfc3f56e24d82d22527aa65c9cf9da968d47373d46369c683a6f647f3e1b",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 3,
+  "seed": 0,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "STRONG",
+  "task_name": "webarena_verified.27.732.2",
+  "verified_action": "click('117')",
+  "verified_validation_signature": {
+    "action_type": "click",
+    "bid": "117",
+    "node": {
+      "bid": "117",
+      "name": "Submissions",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": true,
+    "decision": "REPLACE",
+    "final_action": "click('117')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "117",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "117",
+        "name": "Submissions",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 6.205176371149719,
+    "reason": "Clicking 'Notifications (0)' (BID 57) won't get you to your post to edit. Use 'Submissions' (BID 117) to reach your posts and edit the Night Agent post.",
+    "replacement_action": "click('117')",
+    "response_id": "resp_0130f26eb81398fb016a850ee24cf487d1ac8f911fe544a9f2",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('117')\",\"task_match\":false,\"candidate_match\":true,\"reason\":\"Clicking 'Notifications (0)' (BID 57) won't get you to your post to edit. Use 'Submissions' (BID 117) to reach your posts and edit the Night Agent post.\"}",
+    "usage": {
+      "input_tokens": 2625,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 470,
+      "output_tokens_details": {
+        "reasoning_tokens": 384
+      },
+      "total_tokens": 3095
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "57",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "57",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "57",
+          "name": "Notifications (0)",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

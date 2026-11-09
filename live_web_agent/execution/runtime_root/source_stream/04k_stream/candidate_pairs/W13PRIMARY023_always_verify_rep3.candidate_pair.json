@@ -1,0 +1,113 @@
+{
+  "actual_seed": 0,
+  "arm": "always_verify",
+  "base_action": "click('119')",
+  "base_validation_signature": {
+    "action_type": "click",
+    "bid": "119",
+    "node": {
+      "bid": "119",
+      "name": "Comments",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_id": "W13PRIMARY023",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY023/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "6ae514184f1d9ef9d53be95158cf6e67f357eb6d738617661406382f4d611a94",
+  "cell": "GROUNDED_TARGET_SUBSTITUTION|MILD",
+  "expected_pre_state_semantic_digest": "d56e2719c391bd6556db8222a22462b058e2f261120ceed8775e2bdb84aac5e8",
+  "expected_seed": 0,
+  "formal_candidate_id": "W13PRIMARY023",
+  "operator_id": "GROUNDED_TARGET_SUBSTITUTION",
+  "pre_state_semantic_digest": "d56e2719c391bd6556db8222a22462b058e2f261120ceed8775e2bdb84aac5e8",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 3,
+  "seed": 0,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "MILD",
+  "task_name": "webarena_verified.24.716.2",
+  "verified_action": "click('135')",
+  "verified_validation_signature": {
+    "action_type": "click",
+    "bid": "135",
+    "node": {
+      "bid": "135",
+      "name": "Sort by: Hot",
+      "role": "button",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "click('135')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "135",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "135",
+        "name": "Sort by: Hot",
+        "role": "button",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 10.796959517989308,
+    "reason": "click('119') opens Comments for a post but doesn't help select the subreddit\u2019s top posts or perform downvotes. To reach the top posts (so you can downvote the top 3), first open the sort control (BID 135, 'Sort by: Hot') to change sorting to Top/All Time; use click('135') instead.",
+    "replacement_action": "click('135')",
+    "response_id": "resp_05376d682e30c35b016a850e5e62b887d19eb2dc17b99c34f5",
+    "response_status": "completed",
+    "task_match": true,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('135')\",\"task_match\":true,\"candidate_match\":false,\"reason\":\"click('119') opens Comments for a post but doesn't help select the subreddit\u2019s top posts or perform downvotes. To reach the top posts (so you can downvote the top 3), first open the sort control (BID 135, 'Sort by: Hot') to change sorting to Top/All Time; use click('135') instead.\"}",
+    "usage": {
+      "input_tokens": 2612,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1102,
+      "output_tokens_details": {
+        "reasoning_tokens": 960
+      },
+      "total_tokens": 3714
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "119",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "119",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "119",
+          "name": "Comments",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

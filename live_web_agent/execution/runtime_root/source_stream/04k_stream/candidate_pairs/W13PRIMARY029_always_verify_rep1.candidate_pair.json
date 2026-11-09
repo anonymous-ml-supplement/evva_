@@ -1,0 +1,117 @@
+{
+  "actual_seed": 20,
+  "arm": "always_verify",
+  "base_action": "fill('54', 'post_titlx')",
+  "base_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "post_titlx"
+  },
+  "candidate_id": "W13PRIMARY029",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY029/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "58385d14bbb2ff0df0f4b3331708822f76ae2b03006c5041cfe511a46ec3e68f",
+  "cell": "GROUNDED_CONTENT_VALUE_SUBSTITUTION|MILD",
+  "expected_pre_state_semantic_digest": "da1c22b98a2c699f3c7bb04683d84ed56808264f94c7857d2c7b30cc7fce5078",
+  "expected_seed": 20,
+  "formal_candidate_id": "W13PRIMARY029",
+  "operator_id": "GROUNDED_CONTENT_VALUE_SUBSTITUTION",
+  "pre_state_semantic_digest": "da1c22b98a2c699f3c7bb04683d84ed56808264f94c7857d2c7b30cc7fce5078",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 1,
+  "seed": 20,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "MILD",
+  "task_name": "webarena_verified.33.27.2",
+  "verified_action": "fill('54', 'personal finance')",
+  "verified_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "personal finance"
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'personal finance')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "personal finance"
+    },
+    "latency_seconds": 7.9792013401165605,
+    "reason": "BID '54' is a valid searchable input (search box), but the proposed value 'post_titlx' appears to be a misspelling and does not target the 'personal finances' forum required by the task. Replacing with a search for 'personal finance' better advances the task of locating the Personal Finances forum.",
+    "replacement_action": "fill('54', 'personal finance')",
+    "response_id": "resp_0eaeb08162d59aa9016a850ef834f887d1a72be6930789d4a4",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'personal finance')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"BID '54' is a valid searchable input (search box), but the proposed value 'post_titlx' appears to be a misspelling and does not target the 'personal finances' forum required by the task. Replacing with a search for 'personal finance' better advances the task of locating the Personal Finances forum.\"}",
+    "usage": {
+      "input_tokens": 2680,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 615,
+      "output_tokens_details": {
+        "reasoning_tokens": 448
+      },
+      "total_tokens": 3295
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "post_titlx"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

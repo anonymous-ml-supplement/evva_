@@ -1,0 +1,117 @@
+{
+  "actual_seed": 0,
+  "arm": "no_verify",
+  "base_action": "fill('54', 'sushi restaurants')",
+  "base_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "sushi restaurants"
+  },
+  "candidate_id": "W13PRIMARY004",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY004/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "acf40f85f3f143b9249ec818f22ec575e978ebf5fa161533ae0b44a31fb8a3b6",
+  "cell": "GROUNDED_CONTENT_VALUE_SUBSTITUTION|STRONG",
+  "expected_pre_state_semantic_digest": "35d804dfc09505d6e38ef8b1228ae9d100b4d1dc8b0bb5b6f7d0385bf329dd68",
+  "expected_seed": 0,
+  "formal_candidate_id": "W13PRIMARY004",
+  "operator_id": "GROUNDED_CONTENT_VALUE_SUBSTITUTION",
+  "pre_state_semantic_digest": "35d804dfc09505d6e38ef8b1228ae9d100b4d1dc8b0bb5b6f7d0385bf329dd68",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 2,
+  "seed": 0,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "STRONG",
+  "task_name": "webarena_verified.12.622.2",
+  "verified_action": "fill('54', 'sexual harassment')",
+  "verified_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "sexual harassment"
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'sexual harassment')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "sexual harassment"
+    },
+    "latency_seconds": 8.842162686400115,
+    "reason": "The proposed action fills the search box with 'sushi restaurants', which does not advance the request to create a forum post titled 'sexual harassment' with details 'Please help'. A more relevant action from the same action surface is to fill the search box with 'sexual harassment'. Note: creating the actual post will require additional actions (filling the post title/body and submitting), which are not available in the provided action surface.",
+    "replacement_action": "fill('54', 'sexual harassment')",
+    "response_id": "resp_0bb13a4ef394c2ea016a850c75056c8190b481c16f4cf8b693",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'sexual harassment')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"The proposed action fills the search box with 'sushi restaurants', which does not advance the request to create a forum post titled 'sexual harassment' with details 'Please help'. A more relevant action from the same action surface is to fill the search box with 'sexual harassment'. Note: creating the actual post will require additional actions (filling the post title/body and submitting), which are not available in the provided action surface.\"}",
+    "usage": {
+      "input_tokens": 2642,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 771,
+      "output_tokens_details": {
+        "reasoning_tokens": 640
+      },
+      "total_tokens": 3413
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "sushi restaurants"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.5,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "c64652e6da1ba9e1b03d4b053726f5602fb8a71922eb160da47b1cc5a4de6487",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 8,
+  "arm": "no_verify",
+  "base_action": "fill('54', 'noise-cancellinx')",
+  "branch_action_validation": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "allowed_verbs": [
+        "click",
+        "fill"
+      ],
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "noise-cancellinx"
+  },
+  "branch_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "noise-cancellinx"
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "c64652e6da1ba9e1b03d4b053726f5602fb8a71922eb160da47b1cc5a4de6487",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "72b1af9291b73b7fd4e443da9371f52e5087610e712800525723c43c3d2dd4be",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "noise-cancellinx"
+  },
+  "continuation_action_count": 7,
+  "continuation_action_errors": [
+    {
+      "action": "click('395')",
+      "continuation_index": 6,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"395\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.5,
+  "elapsed_seconds": 116.73208509599499,
+  "executed_candidate_action": "fill('54', 'noise-cancellinx')",
+  "expected_seed": 8,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "fill('54', 'noise-cancellinx')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.5,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "c64652e6da1ba9e1b03d4b053726f5602fb8a71922eb160da47b1cc5a4de6487",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "fill('54', 'noise-cancellinx')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "54",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.15.630.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "fill('54', 'noise-cancelling headphones recommendations?')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'noise-cancelling headphones recommendations?')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "noise-cancelling headphones recommendations?"
+    },
+    "latency_seconds": 7.8332746108062565,
+    "reason": "BID '54' is a valid fillable search box, so the action is grounded, but filling the search box does not advance the task of creating a new post in f/headphones. The proposed value contains a typo ('noise-cancellinx'). A better grounded replacement (same action surface) corrects the text to the requested post title, but note that filling the search box may still be the wrong UI element for creating a submission.",
+    "replacement_action": "fill('54', 'noise-cancelling headphones recommendations?')",
+    "response_id": "resp_0416adfe6b2591db016a850c5f0d8c8190a39f70a46b32abba",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'noise-cancelling headphones recommendations?')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"BID '54' is a valid fillable search box, so the action is grounded, but filling the search box does not advance the task of creating a new post in f/headphones. The proposed value contains a typo ('noise-cancellinx'). A better grounded replacement (same action surface) corrects the text to the requested post title, but note that filling the search box may still be the wrong UI element for creating a submission.\"}",
+    "usage": {
+      "input_tokens": 2661,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 698,
+      "output_tokens_details": {
+        "reasoning_tokens": 512
+      },
+      "total_tokens": 3359
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "noise-cancellinx"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

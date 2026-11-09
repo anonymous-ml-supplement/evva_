@@ -1,0 +1,117 @@
+{
+  "actual_seed": 22,
+  "arm": "no_verify",
+  "base_action": "fill('54', 'indoor gardening')",
+  "base_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "indoor gardening"
+  },
+  "candidate_id": "W13PRIMARY012",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY012/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "f651f496c6443a8b182d803a520be68e6667872faf16a536b0eeb2424ecadad5",
+  "cell": "GROUNDED_CONTENT_VALUE_SUBSTITUTION|STRONG",
+  "expected_pre_state_semantic_digest": "673992e19ea21ccad57224a914e9757ba5a189208f174cacdf25ea46c72cdb1f",
+  "expected_seed": 22,
+  "formal_candidate_id": "W13PRIMARY012",
+  "operator_id": "GROUNDED_CONTENT_VALUE_SUBSTITUTION",
+  "pre_state_semantic_digest": "673992e19ea21ccad57224a914e9757ba5a189208f174cacdf25ea46c72cdb1f",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 3,
+  "seed": 22,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "STRONG",
+  "task_name": "webarena_verified.4.599.2",
+  "verified_action": "fill('54', 'machine learning')",
+  "verified_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "machine learning"
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": true,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'machine learning')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "machine learning"
+    },
+    "latency_seconds": 9.678346191067249,
+    "reason": "The proposed fill uses an unrelated query ('indoor gardening') and does not advance subscribing to the 'machine learning' forum. BID 54 is the search box (allowed), so replace with filling it with 'machine learning' to locate the target forum.",
+    "replacement_action": "fill('54', 'machine learning')",
+    "response_id": "resp_00cf9389ee26144f016a850d43567487d1a9e88d2a3ad717df",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'machine learning')\",\"task_match\":false,\"candidate_match\":true,\"reason\":\"The proposed fill uses an unrelated query ('indoor gardening') and does not advance subscribing to the 'machine learning' forum. BID 54 is the search box (allowed), so replace with filling it with 'machine learning' to locate the target forum.\"}",
+    "usage": {
+      "input_tokens": 2637,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 839,
+      "output_tokens_details": {
+        "reasoning_tokens": 704
+      },
+      "total_tokens": 3476
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "indoor gardening"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

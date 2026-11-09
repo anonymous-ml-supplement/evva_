@@ -1,0 +1,113 @@
+{
+  "actual_seed": 25,
+  "arm": "no_verify",
+  "base_action": "click('57')",
+  "base_validation_signature": {
+    "action_type": "click",
+    "bid": "57",
+    "node": {
+      "bid": "57",
+      "name": "Notifications (0)",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_id": "W13PRIMARY006",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY006/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "44a857f19d6b21f53601ad86bb7b02d294f29b2b2a9ef9f5d806d18f723e8b16",
+  "cell": "GROUNDED_TARGET_SUBSTITUTION|STRONG",
+  "expected_pre_state_semantic_digest": "a60bf3e0eef3ceae9d25a8489f3a971149a4014d3af9307dff93aad69e156dba",
+  "expected_seed": 25,
+  "formal_candidate_id": "W13PRIMARY006",
+  "operator_id": "GROUNDED_TARGET_SUBSTITUTION",
+  "pre_state_semantic_digest": "a60bf3e0eef3ceae9d25a8489f3a971149a4014d3af9307dff93aad69e156dba",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 1,
+  "seed": 25,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "STRONG",
+  "task_name": "webarena_verified.13.628.2",
+  "verified_action": "click('62')",
+  "verified_validation_signature": {
+    "action_type": "click",
+    "bid": "62",
+    "node": {
+      "bid": "62",
+      "name": "Submit",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": true,
+    "decision": "REPLACE",
+    "final_action": "click('62')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "62",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "62",
+        "name": "Submit",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 6.798462327104062,
+    "reason": "click('57') targets 'Notifications (0)', which does not advance creating a discussion post. Use the 'Submit' link (BID 62) to create a new post titled 'long distance relationship' and ask 'your opinion'.",
+    "replacement_action": "click('62')",
+    "response_id": "resp_02c160c4d37148e9016a850ca3d92487d190661a6701b86a69",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('62')\",\"task_match\":false,\"candidate_match\":true,\"reason\":\"click('57') targets 'Notifications (0)', which does not advance creating a discussion post. Use the 'Submit' link (BID 62) to create a new post titled 'long distance relationship' and ask 'your opinion'.\"}",
+    "usage": {
+      "input_tokens": 2631,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 640,
+      "output_tokens_details": {
+        "reasoning_tokens": 512
+      },
+      "total_tokens": 3271
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "57",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "57",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "57",
+          "name": "Notifications (0)",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

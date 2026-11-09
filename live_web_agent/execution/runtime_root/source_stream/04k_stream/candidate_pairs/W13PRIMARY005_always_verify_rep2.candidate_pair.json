@@ -1,0 +1,113 @@
+{
+  "actual_seed": 12,
+  "arm": "always_verify",
+  "base_action": "click('119')",
+  "base_validation_signature": {
+    "action_type": "click",
+    "bid": "119",
+    "node": {
+      "bid": "119",
+      "name": "Comments",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_id": "W13PRIMARY005",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY005/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "11bfbfc50d99491212ce854b6743f61ccc4ed0c4d24e56d651e53d87397d9470",
+  "cell": "GROUNDED_TARGET_SUBSTITUTION|MILD",
+  "expected_pre_state_semantic_digest": "ab8cc1c911909b89f13fc81f8888f01a8daa56ce005e7715d760e9dc1182af77",
+  "expected_seed": 12,
+  "formal_candidate_id": "W13PRIMARY005",
+  "operator_id": "GROUNDED_TARGET_SUBSTITUTION",
+  "pre_state_semantic_digest": "ab8cc1c911909b89f13fc81f8888f01a8daa56ce005e7715d760e9dc1182af77",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 2,
+  "seed": 12,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "MILD",
+  "task_name": "webarena_verified.4.597.2",
+  "verified_action": "click('42')",
+  "verified_validation_signature": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "click('42')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "42",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "42",
+        "name": "Forums",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 8.63296733982861,
+    "reason": "click('119') targets a post 'Comments' link but we are at the reddit root and it doesn't ensure we reach the consoles forum or the most controversial post. A safer next step is to open the Forums page (click('42')) to navigate to the consoles forum first.",
+    "replacement_action": "click('42')",
+    "response_id": "resp_03577cfe42faf5a6016a850c8bae808195b626ab4cdff439f4",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('42')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"click('119') targets a post 'Comments' link but we are at the reddit root and it doesn't ensure we reach the consoles forum or the most controversial post. A safer next step is to open the Forums page (click('42')) to navigate to the consoles forum first.\"}",
+    "usage": {
+      "input_tokens": 2621,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 749,
+      "output_tokens_details": {
+        "reasoning_tokens": 640
+      },
+      "total_tokens": 3370
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "119",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "119",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "119",
+          "name": "Comments",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

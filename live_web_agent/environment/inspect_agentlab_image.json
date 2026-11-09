@@ -1,0 +1,73 @@
+[
+    {
+        "Id": "sha256:72af97d4b3f909808e5d9212413aba03c0b3cb8f6361db83aa6519f40d1681df",
+        "RepoTags": [
+            "evva-w12-source-aligned-agentlab:0.4.2-bg0.14.3-runtime-compatible"
+        ],
+        "RepoDigests": [
+            "evva-w12-source-aligned-agentlab@sha256:72af97d4b3f909808e5d9212413aba03c0b3cb8f6361db83aa6519f40d1681df"
+        ],
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2026-08-10T18:53:28.376549568-04:00",
+        "Config": {
+            "Env": [
+                "SETUPTOOLS_SCM_PRETEND_VERSION=0.0.0+g6473f72db5dc",
+                "SETUPTOOLS_SCM_PRETEND_VERSION_FOR_WEBARENA_VERIFIED=0.0.0+g6473f72db5dc",
+                "WA_REDDIT=http://evva-w1-webarena-reddit",
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+                "PYTHON_VERSION=3.12.13",
+                "PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684"
+            ],
+            "Cmd": [
+                "sleep",
+                "infinity"
+            ],
+            "Labels": {
+                "evva.browsergym.commit": "9e779f087de9a65668b6974d11f9ce9816026e96",
+                "evva.install.mode": "non-editable-self-contained-local-source",
+                "evva.python.version": "3.12",
+                "evva.webarena_verified.commit": "6473f72db5dcefc97b5725b59e734504edc28a21",
+                "evva.webarena_verified.version": "0.0.0+g6473f72db5dc",
+                "evva.workstream": "W1-ENV"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 3977112530,
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:f2c42f900cb3b12d5456f76b4fa6454a52df3981323d3a1b1a17fe4c4955ab4a",
+                "sha256:d13007d6a3979078792cbc2afff5c74eb1a14f5a02394f6cae0a873a0752c104",
+                "sha256:af68230260cdbb7ac206fc2f95bf67c1a75ebdcf3e4014accffd3c8bcb478e15",
+                "sha256:ac06852f1f7254083486500d54ef4292d46b2c868df62ba93466e633c78a7cf1",
+                "sha256:6587a7f280f5376a607c39e0275c37d05bbbf23b74266bdb259384faf71d2719",
+                "sha256:d215acce2c49d2003fd30473cd4ff924eca35e3c89b630c8cb84f85b225cd7fd",
+                "sha256:cafaef489724826a2bd9191071e11816e9f2865966febd2ec590c42918436848",
+                "sha256:0ed20950369b00ecf6f95cd94b64afeca24e734525d3b8f6c1406da014212f24",
+                "sha256:fdb66c5ae95789adfe85d162880218708d3db4e6d9c847ae7fcc8b64a0769d48",
+                "sha256:108a6be0740b112cbb79db3e281116bc9d8fc3b53f361511e9f0583922d6e5b0",
+                "sha256:62232234b9cb3e87c295fd356e4dc5677caa869ad6d6f60b4eab5a40aa0863dc",
+                "sha256:5b1ada6e3b81cacdeebc06c95ae1c9cd34b8fd4be594aeb2db1f502e053c803e"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2026-08-10T22:53:31.912969758Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:72af97d4b3f909808e5d9212413aba03c0b3cb8f6361db83aa6519f40d1681df",
+            "size": 856
+        },
+        "Identity": {
+            "Build": [
+                {
+                    "Ref": "wpb2ag6ps8r5mmz9sqt0xzsbl",
+                    "CreatedAt": "2026-08-10T18:53:32.354009414-04:00"
+                }
+            ]
+        }
+    }
+]

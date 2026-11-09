@@ -1,0 +1,69 @@
+{
+  "budgets_percent": [
+    5,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    75,
+    80,
+    90,
+    100
+  ],
+  "confirmation_blocks": [
+    {
+      "all_seeds": "6500-6799",
+      "calibration_seeds": "6500-6599",
+      "evaluation_seeds": "6600-6799",
+      "name": "C1"
+    },
+    {
+      "all_seeds": "6800-7099",
+      "calibration_seeds": "6800-6899",
+      "evaluation_seeds": "6900-7099",
+      "name": "C2"
+    }
+  ],
+  "method": {
+    "exact_top_B": true,
+    "name": "EVVA-SAG",
+    "row_order_invariant": true,
+    "same_unavailable_ranking_at_all_budgets": true,
+    "tie_aware": true,
+    "value_available": "preserve the exact locked value-aware schedule",
+    "value_unavailable": "use one fixed ranking equal to 0.10 percentile(pH) + 0.90 percentile(H)"
+  },
+  "primary_comparator": "original hash-locked EVVA-SAG",
+  "primary_metric": "normalized trapezoidal AUBC over 5%-90%",
+  "primary_success_criteria": [
+    "C1 point AUBC delta versus original locked EVVA-SAG is positive",
+    "C2 point AUBC delta versus original locked EVVA-SAG is positive",
+    "combined two-level block plus seed-cluster bootstrap 95% CI lower bound is above zero"
+  ],
+  "prohibited_after_freeze": [
+    "changing 0.10 or 0.90 weights",
+    "adding a budget-specific fallback",
+    "adding a learned residual",
+    "adding ShallowGB or another model",
+    "changing primary metrics",
+    "reusing C1 or C2 for development"
+  ],
+  "secondary_metrics": [
+    "60% margin",
+    "70% margin",
+    "block-level oracle regret",
+    "strict wins, ties, and losses"
+  ],
+  "secondary_metrics_are_not_selection_gates": true,
+  "status": "frozen_before_execution",
+  "structural_checks": [
+    "exact-B at every budget",
+    "100% structural equality",
+    "no calibration/evaluation seed overlap",
+    "three rows per seed",
+    "frozen source hashes unchanged"
+  ]
+}

@@ -1,0 +1,6 @@
+Item	Authority	Conclusion	Status
+L_post	FULL180 raw continuation_action_count + frozen Final90	Post-continuation retrospective trajectory diagnostic; not decision-time deployable	PASS
+Local reward/value fields	FULL180 raw execution/evaluation artifacts	May exist as local outcome/evaluation fields; same names do not establish learned reward/value-model identity	PASS
+PRM/process-reward comparator	FULL180 raw + final signal-table headers	No nonempty PRM signal/model binding used by final live evaluation	PASS
+Learned reward/value-model comparator	FULL180 raw + final signal-table headers	No nonempty learned reward/value-model signal or binding used by final live evaluation	PASS
+Learned-router comparator	FULL180 raw + final signal-table headers	No nonempty learned-router signal/model/policy binding used by final live evaluation	PASS

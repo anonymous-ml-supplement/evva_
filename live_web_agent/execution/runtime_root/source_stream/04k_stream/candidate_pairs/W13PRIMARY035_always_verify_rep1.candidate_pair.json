@@ -1,0 +1,113 @@
+{
+  "actual_seed": 22,
+  "arm": "always_verify",
+  "base_action": "click('119')",
+  "base_validation_signature": {
+    "action_type": "click",
+    "bid": "119",
+    "node": {
+      "bid": "119",
+      "name": "Comments",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_id": "W13PRIMARY035",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY035/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "19f5827dc19d4644265e37a5fb89ac40aeda71354da618e487a79704f379e9c7",
+  "cell": "GROUNDED_TARGET_SUBSTITUTION|MILD",
+  "expected_pre_state_semantic_digest": "a30c63b312ca7dfd3f200399ffa79a9dc5f0dc98a5e7fbd5878b608f2f4bf815",
+  "expected_seed": 22,
+  "formal_candidate_id": "W13PRIMARY035",
+  "operator_id": "GROUNDED_TARGET_SUBSTITUTION",
+  "pre_state_semantic_digest": "a30c63b312ca7dfd3f200399ffa79a9dc5f0dc98a5e7fbd5878b608f2f4bf815",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 1,
+  "seed": 22,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "MILD",
+  "task_name": "webarena_verified.6.400.2",
+  "verified_action": "click('68')",
+  "verified_validation_signature": {
+    "action_type": "click",
+    "bid": "68",
+    "node": {
+      "bid": "68",
+      "name": "MarvelsGrantMan136",
+      "role": "button",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "click('68')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "68",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "68",
+        "name": "MarvelsGrantMan136",
+        "role": "button",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 7.76767434598878,
+    "reason": "click('119') targets the 'Comments' link and does not lead to editing your profile bio. To change your forum bio you should open your profile\u2014use click('68') (the username button 'MarvelsGrantMan136') to access profile/settings where the bio can be edited.",
+    "replacement_action": "click('68')",
+    "response_id": "resp_03f2a6179189fe12016a850f7faba8819489536171b7ef5517",
+    "response_status": "completed",
+    "task_match": true,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('68')\",\"task_match\":true,\"candidate_match\":false,\"reason\":\"click('119') targets the 'Comments' link and does not lead to editing your profile bio. To change your forum bio you should open your profile\u2014use click('68') (the username button 'MarvelsGrantMan136') to access profile/settings where the bio can be edited.\"}",
+    "usage": {
+      "input_tokens": 2620,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 764,
+      "output_tokens_details": {
+        "reasoning_tokens": 640
+      },
+      "total_tokens": 3384
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "119",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "119",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "119",
+          "name": "Comments",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

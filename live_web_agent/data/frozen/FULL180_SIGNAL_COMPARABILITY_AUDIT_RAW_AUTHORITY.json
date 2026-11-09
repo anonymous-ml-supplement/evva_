@@ -1,0 +1,26 @@
+{
+  "artifact": "FULL180_SIGNAL_COMPARABILITY_AUDIT_RAW_AUTHORITY",
+  "raw_files_scanned": 903,
+  "continuation_action_count_nonempty_hits": 180,
+  "counts": {
+    "PRM": {
+      "signal_field_hits": 0,
+      "signal_field_nonempty": 0,
+      "binding_hits": 0,
+      "binding_nonempty": 0
+    },
+    "REWARD_VALUE_MODEL": {
+      "signal_field_hits": 0,
+      "signal_field_nonempty": 0,
+      "binding_hits": 0,
+      "binding_nonempty": 0
+    },
+    "LEARNED_ROUTER": {
+      "signal_field_hits": 0,
+      "signal_field_nonempty": 0,
+      "binding_hits": 0,
+      "binding_nonempty": 0
+    }
+  },
+  "science_pass": true
+}

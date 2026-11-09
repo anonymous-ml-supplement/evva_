@@ -1,0 +1,174 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.5,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "c5b423a7c5b59b400b54357fe0656e0f2fb974430ad27c628dda9d4223dc94e7",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 29,
+  "arm": "always_verify",
+  "base_action": "click('57')",
+  "branch_action_validation": {
+    "action_type": "click",
+    "bid": "68",
+    "node": {
+      "allowed_verbs": [
+        "click"
+      ],
+      "bid": "68",
+      "name": "MarvelsGrantMan136",
+      "role": "button",
+      "value": ""
+    },
+    "valid": true
+  },
+  "branch_action_validation_signature": {
+    "action_type": "click",
+    "bid": "68",
+    "node": {
+      "bid": "68",
+      "name": "MarvelsGrantMan136",
+      "role": "button",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "c5b423a7c5b59b400b54357fe0656e0f2fb974430ad27c628dda9d4223dc94e7",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "480b17e101a368ef36134e1337e5b3d11d3ce7be722d8a419fb021165c9ce2a7",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "click",
+    "bid": "68",
+    "node": {
+      "bid": "68",
+      "name": "MarvelsGrantMan136",
+      "role": "button",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "continuation_action_count": 6,
+  "continuation_action_errors": [
+    {
+      "action": "click('81')",
+      "continuation_index": 1,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"81\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('250')",
+      "continuation_index": 4,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"250\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.5,
+  "elapsed_seconds": 91.03886480400979,
+  "executed_candidate_action": "click('68')",
+  "expected_seed": 29,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "click('68')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.5,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "c5b423a7c5b59b400b54357fe0656e0f2fb974430ad27c628dda9d4223dc94e7",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "click('68')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "68",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.6.402.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "click('68')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "click('68')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "68",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "68",
+        "name": "MarvelsGrantMan136",
+        "role": "button",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 7.498642031103373,
+    "reason": "Clicking 'Notifications (0)' (BID 57) does not lead to profile/settings needed to edit your bio. Clicking the username button (BID 68 'MarvelsGrantMan136') is more likely to open your profile/menu where you can access settings to change your bio.",
+    "replacement_action": "click('68')",
+    "response_id": "resp_044f91b3fb397e22016a850d6fcd8c87d1abf8a690eaa8a74f",
+    "response_status": "completed",
+    "task_match": true,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('68')\",\"task_match\":true,\"candidate_match\":false,\"reason\":\"Clicking 'Notifications (0)' (BID 57) does not lead to profile/settings needed to edit your bio. Clicking the username button (BID 68 'MarvelsGrantMan136') is more likely to open your profile/menu where you can access settings to change your bio.\"}",
+    "usage": {
+      "input_tokens": 2618,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 519,
+      "output_tokens_details": {
+        "reasoning_tokens": 384
+      },
+      "total_tokens": 3137
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "57",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "57",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "57",
+          "name": "Notifications (0)",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

@@ -1,0 +1,168 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.5,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "4586ee8a8dd8275167b477f43e0d90e71ccf9a64a6c6e043b23ffedffc5be7ac",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 14,
+  "arm": "always_verify",
+  "base_action": "click('119')",
+  "branch_action_validation": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "allowed_verbs": [
+        "click"
+      ],
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true
+  },
+  "branch_action_validation_signature": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "4586ee8a8dd8275167b477f43e0d90e71ccf9a64a6c6e043b23ffedffc5be7ac",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "0d00a17a9a545eb9335797f906e64b11eaf82241aeec5fa491310833be580054",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "continuation_action_count": 7,
+  "continuation_action_errors": [
+    {
+      "action": "click('274')",
+      "continuation_index": 6,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"274\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.5,
+  "elapsed_seconds": 70.94238390198734,
+  "executed_candidate_action": "click('42')",
+  "expected_seed": 14,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "click('42')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.5,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "4586ee8a8dd8275167b477f43e0d90e71ccf9a64a6c6e043b23ffedffc5be7ac",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "click('42')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "42",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.7.581.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "click('42')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "click('42')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "42",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "42",
+        "name": "Forums",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 4.8664260022342205,
+    "reason": "BID 119 is the 'Comments' link and does not lead to forum creation. To create a new forum, click the 'Forums' link (BID 42) which is the appropriate navigation target.",
+    "replacement_action": "click('42')",
+    "response_id": "resp_027b105aa73499ce016a850d5c115887d1bdf135fde0f2b0ed",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('42')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"BID 119 is the 'Comments' link and does not lead to forum creation. To create a new forum, click the 'Forums' link (BID 42) which is the appropriate navigation target.\"}",
+    "usage": {
+      "input_tokens": 2636,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 441,
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      },
+      "total_tokens": 3077
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "119",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "119",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "119",
+          "name": "Comments",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

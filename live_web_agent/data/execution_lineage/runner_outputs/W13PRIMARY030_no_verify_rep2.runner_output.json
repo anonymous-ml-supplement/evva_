@@ -1,0 +1,167 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.0,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "cd295ba355516e23fbe2edb66c98dd286230933ed4820ed6a251dbeec6f46fac",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 19,
+  "arm": "no_verify",
+  "base_action": "fill('54', 'origami folding')",
+  "branch_action_validation": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "allowed_verbs": [
+        "click",
+        "fill"
+      ],
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "origami folding"
+  },
+  "branch_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "origami folding"
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "cd295ba355516e23fbe2edb66c98dd286230933ed4820ed6a251dbeec6f46fac",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "85f939f0cb339154499c9c436fc0b496c33e12e12ed2f7018c2cafaa4a248b93",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "origami folding"
+  },
+  "continuation_action_count": 8,
+  "continuation_action_errors": [],
+  "cumulative_browsergym_reward": 0.0,
+  "elapsed_seconds": 106.06398571700265,
+  "executed_candidate_action": "fill('54', 'origami folding')",
+  "expected_seed": 19,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "fill('54', 'origami folding')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.0,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "cd295ba355516e23fbe2edb66c98dd286230933ed4820ed6a251dbeec6f46fac",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "fill('54', 'origami folding')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "54",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.27.731.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "fill('54', 'Nvidia RTX 4090')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'Nvidia RTX 4090')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "Nvidia RTX 4090"
+    },
+    "latency_seconds": 8.651351888198406,
+    "reason": "The proposed fill('54','origami folding') uses the search box but searches for an unrelated term. To edit the post about the Nvidia RTX 4090 you should search for that post (e.g., fill the search box with 'Nvidia RTX 4090') so you can locate and then edit it.",
+    "replacement_action": "fill('54', 'Nvidia RTX 4090')",
+    "response_id": "resp_00bbf3f0d1cf391a016a850f0fc08c87d187fb6a4878259620",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'Nvidia RTX 4090')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"The proposed fill('54','origami folding') uses the search box but searches for an unrelated term. To edit the post about the Nvidia RTX 4090 you should search for that post (e.g., fill the search box with 'Nvidia RTX 4090') so you can locate and then edit it.\"}",
+    "usage": {
+      "input_tokens": 2644,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 717,
+      "output_tokens_details": {
+        "reasoning_tokens": 576
+      },
+      "total_tokens": 3361
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "origami folding"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

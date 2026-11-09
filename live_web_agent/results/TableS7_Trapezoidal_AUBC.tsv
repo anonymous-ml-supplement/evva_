@@ -1,0 +1,5 @@
+Setting	Weighting	Best baseline	Baseline AUBC	EVVA AUBC	Delta
+Controlled	Uniform	H	13.2558	14.0117	+0.7559
+Controlled	Trapezoidal	H	12.9616	13.8258	+0.8642
+Live	Uniform	pH	0.698718	0.756410	+0.057692
+Live	Trapezoidal	pH	0.7227	0.7814	+0.0587

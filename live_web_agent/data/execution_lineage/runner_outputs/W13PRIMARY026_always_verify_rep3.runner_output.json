@@ -1,0 +1,180 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.5,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "44c7b45db1faf246eccfc4267e2a9309b76fc12fd6ef49bf864ae03a09860754",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 10,
+  "arm": "always_verify",
+  "base_action": "fill('54', 'watercolor painting')",
+  "branch_action_validation": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "allowed_verbs": [
+        "click",
+        "fill"
+      ],
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "pittsburgh"
+  },
+  "branch_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "pittsburgh"
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "44c7b45db1faf246eccfc4267e2a9309b76fc12fd6ef49bf864ae03a09860754",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "84039b28127e09f4d9a9654e7d99655191855afe00e358374d0cdd38a4b84f52",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "pittsburgh"
+  },
+  "continuation_action_count": 9,
+  "continuation_action_errors": [
+    {
+      "action": "click('424')",
+      "continuation_index": 4,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"424\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('120')",
+      "continuation_index": 5,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"120\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.5,
+  "elapsed_seconds": 177.12012456900266,
+  "executed_candidate_action": "fill('54', 'pittsburgh')",
+  "expected_seed": 10,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "fill('54', 'pittsburgh')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.5,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "44c7b45db1faf246eccfc4267e2a9309b76fc12fd6ef49bf864ae03a09860754",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "fill('54', 'pittsburgh')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "54",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.4.598.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "fill('54', 'pittsburgh')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'pittsburgh')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "pittsburgh"
+    },
+    "latency_seconds": 11.281802404671907,
+    "reason": "BID 54 is the search box (allowed verbs: click, fill) but the proposed query 'watercolor painting' is unrelated to subscribing to the 'pittsburgh' forum. A relevant replacement is to fill the search box with 'pittsburgh' to find the forum page.",
+    "replacement_action": "fill('54', 'pittsburgh')",
+    "response_id": "resp_06396955810b31e0016a850eaca80887d19820ebfaac525272",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'pittsburgh')\",\"task_match\":false,\"candidate_match\":false,\"reason\":\"BID 54 is the search box (allowed verbs: click, fill) but the proposed query 'watercolor painting' is unrelated to subscribing to the 'pittsburgh' forum. A relevant replacement is to fill the search box with 'pittsburgh' to find the forum page.\"}",
+    "usage": {
+      "input_tokens": 2641,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 797,
+      "output_tokens_details": {
+        "reasoning_tokens": 640
+      },
+      "total_tokens": 3438
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "watercolor painting"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

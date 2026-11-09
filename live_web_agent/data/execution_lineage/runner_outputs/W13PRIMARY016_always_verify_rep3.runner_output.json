@@ -1,0 +1,174 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.0,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "1cc28dfbc878a6cbc2c42cf71b9e5f1ce9b233c8f0a8e3cfba0a0d28d3d95298",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 4,
+  "arm": "always_verify",
+  "base_action": "fill('54', 'origami folding')",
+  "branch_action_validation": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "allowed_verbs": [
+        "click",
+        "fill"
+      ],
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "author:RickyDontLoseThat subreddit:massachusetts"
+  },
+  "branch_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "author:RickyDontLoseThat subreddit:massachusetts"
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "1cc28dfbc878a6cbc2c42cf71b9e5f1ce9b233c8f0a8e3cfba0a0d28d3d95298",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "3e6c1c94cde3d4d6ea5aba16c334b946643eccaae9085d93bd5ac2915c6a31ab",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "author:RickyDontLoseThat subreddit:massachusetts"
+  },
+  "continuation_action_count": 25,
+  "continuation_action_errors": [
+    {
+      "action": "click('244')",
+      "continuation_index": 4,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"244\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.0,
+  "elapsed_seconds": 272.99278026999673,
+  "executed_candidate_action": "fill('54', 'author:RickyDontLoseThat subreddit:massachusetts')",
+  "expected_seed": 4,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "fill('54', 'author:RickyDontLoseThat subreddit:massachusetts')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.0,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "1cc28dfbc878a6cbc2c42cf71b9e5f1ce9b233c8f0a8e3cfba0a0d28d3d95298",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "fill('54', 'author:RickyDontLoseThat subreddit:massachusetts')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "54",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.1510.725.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "fill('54', 'author:RickyDontLoseThat subreddit:massachusetts')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'author:RickyDontLoseThat subreddit:massachusetts')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "author:RickyDontLoseThat subreddit:massachusetts"
+    },
+    "latency_seconds": 7.2641596281901,
+    "reason": "The proposed fill uses an unrelated search query ('origami folding') which doesn't help find the target user's posts in r/massachusetts. Replacing with a Reddit search query 'author:RickyDontLoseThat subreddit:massachusetts' will surface that user's submissions in the specified forum so you can dislike/downvote them.",
+    "replacement_action": "fill('54', 'author:RickyDontLoseThat subreddit:massachusetts')",
+    "response_id": "resp_07604882d6944d0e016a850d9d05f487d182cff05c28e6fee5",
+    "response_status": "completed",
+    "task_match": true,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'author:RickyDontLoseThat subreddit:massachusetts')\",\"task_match\":true,\"candidate_match\":false,\"reason\":\"The proposed fill uses an unrelated search query ('origami folding') which doesn't help find the target user's posts in r/massachusetts. Replacing with a Reddit search query 'author:RickyDontLoseThat subreddit:massachusetts' will surface that user's submissions in the specified forum so you can dislike/downvote them.\"}",
+    "usage": {
+      "input_tokens": 2633,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 681,
+      "output_tokens_details": {
+        "reasoning_tokens": 512
+      },
+      "total_tokens": 3314
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "origami folding"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

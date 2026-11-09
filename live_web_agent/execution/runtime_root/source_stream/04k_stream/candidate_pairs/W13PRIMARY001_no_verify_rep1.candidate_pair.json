@@ -1,0 +1,113 @@
+{
+  "actual_seed": 11,
+  "arm": "no_verify",
+  "base_action": "click('119')",
+  "base_validation_signature": {
+    "action_type": "click",
+    "bid": "119",
+    "node": {
+      "bid": "119",
+      "name": "Comments",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_id": "W13PRIMARY001",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY001/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "d2634265215beb7fe8692a4e3caf56e1d7f9d0bae065764cb18888827023ea46",
+  "cell": "GROUNDED_TARGET_SUBSTITUTION|MILD",
+  "expected_pre_state_semantic_digest": "29637b6e76a492f33264f054db70b11af588ca48d613992e7114ab5ad27dfe5b",
+  "expected_seed": 11,
+  "formal_candidate_id": "W13PRIMARY001",
+  "operator_id": "GROUNDED_TARGET_SUBSTITUTION",
+  "pre_state_semantic_digest": "29637b6e76a492f33264f054db70b11af588ca48d613992e7114ab5ad27dfe5b",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 1,
+  "seed": 11,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "MILD",
+  "task_name": "webarena_verified.12.624.2",
+  "verified_action": "click('62')",
+  "verified_validation_signature": {
+    "action_type": "click",
+    "bid": "62",
+    "node": {
+      "bid": "62",
+      "name": "Submit",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": true,
+    "decision": "REPLACE",
+    "final_action": "click('62')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "62",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "62",
+        "name": "Submit",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 5.846748233772814,
+    "reason": "BID 119 is the 'Comments' link (views comments), which does not open the submit-post form needed to create a new forum post. Use the 'Submit' link (BID 62) to start a new post titled \"break-up remedy\" with details \"Please help\".",
+    "replacement_action": "click('62')",
+    "response_id": "resp_08d19f27b55b6df8016a850c372e5887d1a7a694b1c359051b",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('62')\",\"task_match\":false,\"candidate_match\":true,\"reason\":\"BID 119 is the 'Comments' link (views comments), which does not open the submit-post form needed to create a new forum post. Use the 'Submit' link (BID 62) to start a new post titled \\\"break-up remedy\\\" with details \\\"Please help\\\".\"}",
+    "usage": {
+      "input_tokens": 2625,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 468,
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      },
+      "total_tokens": 3093
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "119",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "119",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "119",
+          "name": "Comments",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

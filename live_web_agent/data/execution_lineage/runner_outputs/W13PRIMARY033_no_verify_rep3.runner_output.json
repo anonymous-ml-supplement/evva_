@@ -1,0 +1,180 @@
+{
+  "CANDIDATE_EXECUTED": true,
+  "CANDIDATE_GROUNDED": true,
+  "ENVIRONMENT_OUTCOME_BOUNDARY_OBSERVED": true,
+  "MATCHED_PRESTATE": true,
+  "MEASUREMENT_ACCEPTED": true,
+  "NATIVE_BRANCH_REWARD": 0.5,
+  "NO_ARTIFICIAL_CONTINUATION_ABORT": true,
+  "PRE_STATE_SEMANTIC_DIGEST": "3def2f13e4f89221a53bb4cd707c3c82f28a108e87ea29a4ad89024ebef6df2a",
+  "STOP_CLASS": "ENVIRONMENT_TERMINATED",
+  "TECHNICAL_PASS": true,
+  "action_grounding_signature_match": true,
+  "actual_seed": 12,
+  "arm": "no_verify",
+  "base_action": "fill('54', 'upliftingnewx')",
+  "branch_action_validation": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "allowed_verbs": [
+        "click",
+        "fill"
+      ],
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "upliftingnewx"
+  },
+  "branch_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "upliftingnewx"
+  },
+  "candidate_actions_differ": true,
+  "candidate_capture_status": "PASS_EXACT_CANDIDATE_PAIR_FROZEN",
+  "candidate_last_action_error": "",
+  "candidate_pre_state_semantic_digest": "3def2f13e4f89221a53bb4cd707c3c82f28a108e87ea29a4ad89024ebef6df2a",
+  "candidate_reward": 0.0,
+  "candidate_state_pickle_sha256": "5119b9687ab3eda8a0b83df26009f67365ae5bbc3295ea2f0126a21e492b2cc9",
+  "candidate_step_index": 0,
+  "candidate_task_info": {},
+  "capture_action_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "upliftingnewx"
+  },
+  "continuation_action_count": 9,
+  "continuation_action_errors": [
+    {
+      "action": "click('365')",
+      "continuation_index": 6,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"365\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    },
+    {
+      "action": "click('840')",
+      "continuation_index": 8,
+      "last_action_error": "TimeoutError: Locator.click: Timeout 500ms exceeded.\nCall log:\nwaiting for get_by_test_id(\"840\")",
+      "native_semantics": "OBSERVE_AND_CONTINUE"
+    }
+  ],
+  "cumulative_browsergym_reward": 0.5,
+  "elapsed_seconds": 155.90793914200913,
+  "executed_candidate_action": "fill('54', 'upliftingnewx')",
+  "expected_seed": 12,
+  "failure_reason": null,
+  "failure_stage": null,
+  "fresh_backend": true,
+  "frozen_candidate_action_for_arm": "fill('54', 'upliftingnewx')",
+  "gain_computed": false,
+  "native_terminal_reward": 0.5,
+  "native_terminal_task_info": {},
+  "p_h_ph_scored": false,
+  "policy_execution_failure": false,
+  "pre_state_semantic_digest": "3def2f13e4f89221a53bb4cd707c3c82f28a108e87ea29a4ad89024ebef6df2a",
+  "protocol": "W12_2C_FROZEN_PAIRED_BRANCH_V1",
+  "schema_version": "W12_MEASUREMENT_CONTRACT_V1",
+  "source_grounding": {
+    "action": "fill('54', 'upliftingnewx')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "54",
+    "referenced_bid_present": true
+  },
+  "task_name": "webarena_verified.1510.729.2",
+  "technical_failure": false,
+  "terminated": true,
+  "truncated": false,
+  "verified_action": "fill('54', 'UpliftingNews')",
+  "verifier": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'UpliftingNews')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "UpliftingNews"
+    },
+    "latency_seconds": 7.590246794745326,
+    "reason": "BID 54 is the search box (fill allowed), so filling it is appropriate for finding the UpliftingNews forum. However the proposed value 'upliftingnewx' appears to be a typo and likely won't locate the correct forum. Replace with the correct forum name 'UpliftingNews' (case-insensitive) to advance the task.",
+    "replacement_action": "fill('54', 'UpliftingNews')",
+    "response_id": "resp_0ba6fad708fd6f50016a850f50ce4087d1a3665e3ae05eb636",
+    "response_status": "completed",
+    "task_match": true,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'UpliftingNews')\",\"task_match\":true,\"candidate_match\":false,\"reason\":\"BID 54 is the search box (fill allowed), so filling it is appropriate for finding the UpliftingNews forum. However the proposed value 'upliftingnewx' appears to be a typo and likely won't locate the correct forum. Replace with the correct forum name 'UpliftingNews' (case-insensitive) to advance the task.\"}",
+    "usage": {
+      "input_tokens": 2636,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 644,
+      "output_tokens_details": {
+        "reasoning_tokens": 512
+      },
+      "total_tokens": 3280
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "upliftingnewx"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  },
+  "verifier_called": false
+}

@@ -1,0 +1,117 @@
+{
+  "actual_seed": 18,
+  "arm": "no_verify",
+  "base_action": "fill('54', 'sourdough baking')",
+  "base_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "sourdough baking"
+  },
+  "candidate_id": "W13PRIMARY034",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY034/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "d42ab19ce81de031ef6fc3d55ebd9da2862d4e95cf2198e0c00bacee03fdc34a",
+  "cell": "GROUNDED_CONTENT_VALUE_SUBSTITUTION|STRONG",
+  "expected_pre_state_semantic_digest": "859d7ff55f2e9bc2d4b287397fa4b5cb32086121e860e4580a016ebe092c88b7",
+  "expected_seed": 18,
+  "formal_candidate_id": "W13PRIMARY034",
+  "operator_id": "GROUNDED_CONTENT_VALUE_SUBSTITUTION",
+  "pre_state_semantic_digest": "859d7ff55f2e9bc2d4b287397fa4b5cb32086121e860e4580a016ebe092c88b7",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 1,
+  "seed": 18,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "STRONG",
+  "task_name": "webarena_verified.9.614.2",
+  "verified_action": "fill('54', 'r/books Review: Gone with the Wind')",
+  "verified_validation_signature": {
+    "action_type": "fill",
+    "bid": "54",
+    "node": {
+      "bid": "54",
+      "name": "Search query",
+      "role": "searchbox",
+      "value": ""
+    },
+    "valid": true,
+    "value": "r/books Review: Gone with the Wind"
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "fill('54', 'r/books Review: Gone with the Wind')",
+    "final_validation": {
+      "action_type": "fill",
+      "bid": "54",
+      "node": {
+        "allowed_verbs": [
+          "click",
+          "fill"
+        ],
+        "bid": "54",
+        "name": "Search query",
+        "role": "searchbox",
+        "value": ""
+      },
+      "valid": true,
+      "value": "r/books Review: Gone with the Wind"
+    },
+    "latency_seconds": 11.54175315471366,
+    "reason": "The proposed action fills the search box with an unrelated query ('sourdough baking'), which doesn't advance posting a review to r/books. Replacing it with a search for 'r/books Review: Gone with the Wind' uses the same fill-capable BID (54) and will help locate the subreddit or submit page so you can create the review post and then comment. Further clicks (e.g., navigating to the subreddit and the Submit button) will still be needed to complete the task.",
+    "replacement_action": "fill('54', 'r/books Review: Gone with the Wind')",
+    "response_id": "resp_006f3fa383d3cfe6016a850f65c1788193bead09ef10ba2902",
+    "response_status": "completed",
+    "task_match": true,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"fill('54', 'r/books Review: Gone with the Wind')\",\"task_match\":true,\"candidate_match\":false,\"reason\":\"The proposed action fills the search box with an unrelated query ('sourdough baking'), which doesn't advance posting a review to r/books. Replacing it with a search for 'r/books Review: Gone with the Wind' uses the same fill-capable BID (54) and will help locate the subreddit or submit page so you can create the review post and then comment. Further clicks (e.g., navigating to the subreddit and the Submit button) will still be needed to complete the task.\"}",
+    "usage": {
+      "input_tokens": 2653,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 995,
+      "output_tokens_details": {
+        "reasoning_tokens": 832
+      },
+      "total_tokens": 3648
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "54",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "fill",
+        "bid": "54",
+        "node": {
+          "allowed_verbs": [
+            "click",
+            "fill"
+          ],
+          "bid": "54",
+          "name": "Search query",
+          "role": "searchbox",
+          "value": ""
+        },
+        "valid": true,
+        "value": "sourdough baking"
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

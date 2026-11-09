@@ -1,0 +1,128 @@
+{
+  "actual_seed": 31,
+  "base_action": "click('119')",
+  "base_validation_signature": {
+    "action_type": "click",
+    "bid": "119",
+    "node": {
+      "bid": "119",
+      "name": "Comments",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_id": "W13PRIMARY031",
+  "candidate_state_pickle": "candidate_state.pkl",
+  "candidate_state_pickle_sha256": "7da61b48c3564fa863d4d174e111c84505a3cd7307565aa46c74b6cd203a4cae",
+  "cell": "GROUNDED_TARGET_SUBSTITUTION|MILD",
+  "formal_candidate_id": "W13PRIMARY031",
+  "operator_id": "GROUNDED_TARGET_SUBSTITUTION",
+  "operator_reason": "MILD membership is defined by the frozen operator: substitute the task target with the task-adjacent global Comments section for a non-comment post-object task.",
+  "operator_witness": {
+    "excluded_comment_reply_terms": [],
+    "rule": "TASK_ADJACENT_GLOBAL_SECTION_SUBSTITUTION",
+    "selected_bid": "119",
+    "selected_name": "Comments",
+    "selected_role": "link",
+    "task_object_terms": [
+      "forum",
+      "post"
+    ]
+  },
+  "pre_state_semantic_digest": "318ea130147bfc7b410626c77b7feee12cd8a28c33dae331e4fe06a8f6325c47",
+  "source_agent_action": "click('42')",
+  "source_agent_action_grounding": {
+    "action": "click('42')",
+    "error": null,
+    "grounded": true,
+    "mapping_parse_pass": true,
+    "referenced_bid": "42",
+    "referenced_bid_present": true
+  },
+  "split": "evaluation",
+  "status": "FROZEN_PREOUTCOME_CANDIDATE",
+  "strength": "MILD",
+  "task_name": "webarena_verified.5.609.2",
+  "verified_action": "click('42')",
+  "verified_validation_signature": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": false,
+    "decision": "REPLACE",
+    "final_action": "click('42')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "42",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "42",
+        "name": "Forums",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 6.7016636109910905,
+    "reason": "Clicking 'Comments' likely opens a post's comments and won't help find an ML/DL/NLP forum. The 'Forums' link (BID 42) is a better navigation step to locate topic-specific forums or subreddits to post the question.",
+    "replacement_action": "click('42')",
+    "response_id": "resp_0f70ce706efa091c016a850f265f348193b08dbd9fb3dc5eb2",
+    "response_status": "completed",
+    "task_match": true,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('42')\",\"task_match\":true,\"candidate_match\":false,\"reason\":\"Clicking 'Comments' likely opens a post's comments and won't help find an ML/DL/NLP forum. The 'Forums' link (BID 42) is a better navigation step to locate topic-specific forums or subreddits to post the question.\"}",
+    "usage": {
+      "input_tokens": 2632,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 450,
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      },
+      "total_tokens": 3082
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "119",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "119",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "119",
+          "name": "Comments",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "actual_seed": 23,
+  "arm": "always_verify",
+  "base_action": "click('57')",
+  "base_validation_signature": {
+    "action_type": "click",
+    "bid": "57",
+    "node": {
+      "bid": "57",
+      "name": "Notifications (0)",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "candidate_id": "W13PRIMARY032",
+  "candidate_state_pickle": "../../constructor/candidates/W13PRIMARY032/candidate_state.pkl",
+  "candidate_state_pickle_sha256": "d642e3d7a87fd5694bcc5e251cb0ca6d1f1da568b7740f38c03a7d573e86597b",
+  "cell": "GROUNDED_TARGET_SUBSTITUTION|STRONG",
+  "expected_pre_state_semantic_digest": "aa34b5cb1ea4d58455f91d5a034aa918361ed6309e91bce3e43463c02af799a8",
+  "expected_seed": 23,
+  "formal_candidate_id": "W13PRIMARY032",
+  "operator_id": "GROUNDED_TARGET_SUBSTITUTION",
+  "pre_state_semantic_digest": "aa34b5cb1ea4d58455f91d5a034aa918361ed6309e91bce3e43463c02af799a8",
+  "protocol": "FROZEN_LIVE_PAIR_V1",
+  "replicate": 3,
+  "seed": 23,
+  "split": "evaluation",
+  "status": "FROZEN_LIVE_PAIR",
+  "strength": "STRONG",
+  "task_name": "webarena_verified.7.580.2",
+  "verified_action": "click('42')",
+  "verified_validation_signature": {
+    "action_type": "click",
+    "bid": "42",
+    "node": {
+      "bid": "42",
+      "name": "Forums",
+      "role": "link",
+      "value": ""
+    },
+    "valid": true,
+    "value": null
+  },
+  "verifier_result": {
+    "actions_differ": true,
+    "candidate_match": true,
+    "decision": "REPLACE",
+    "final_action": "click('42')",
+    "final_validation": {
+      "action_type": "click",
+      "bid": "42",
+      "node": {
+        "allowed_verbs": [
+          "click"
+        ],
+        "bid": "42",
+        "name": "Forums",
+        "role": "link",
+        "value": ""
+      },
+      "valid": true
+    },
+    "latency_seconds": 7.002407559193671,
+    "reason": "click('57') targets the Notifications link (unrelated to creating a new forum). To reach forum management/create area, use the 'Forums' link instead (BID=42), so replace with click('42').",
+    "replacement_action": "click('42')",
+    "response_id": "resp_0f151084df6b49a3016a850f3b78a4819790d5878da1c44d2d",
+    "response_status": "completed",
+    "task_match": false,
+    "text": "{\"decision\":\"REPLACE\",\"replacement_action\":\"click('42')\",\"task_match\":false,\"candidate_match\":true,\"reason\":\"click('57') targets the Notifications link (unrelated to creating a new forum). To reach forum management/create area, use the 'Forums' link instead (BID=42), so replace with click('42').\"}",
+    "usage": {
+      "input_tokens": 2642,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 472,
+      "output_tokens_details": {
+        "reasoning_tokens": 384
+      },
+      "total_tokens": 3114
+    },
+    "verifier_context_audit": {
+      "candidate_bid": "57",
+      "candidate_in_full_surface": true,
+      "candidate_in_original_compact_surface": true,
+      "candidate_in_verifier_surface": true,
+      "candidate_pinned": false,
+      "current_full_validation": {
+        "action_type": "click",
+        "bid": "57",
+        "node": {
+          "allowed_verbs": [
+            "click"
+          ],
+          "bid": "57",
+          "name": "Notifications (0)",
+          "role": "link",
+          "value": ""
+        },
+        "valid": true
+      },
+      "current_full_validation_valid": true,
+      "full_surface_count": 67,
+      "limit": 180,
+      "representation_consistent": true,
+      "representation_truncated": false,
+      "supplied_validation_valid": true,
+      "verifier_surface_count": 67
+    }
+  }
+}

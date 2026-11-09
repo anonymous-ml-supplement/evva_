@@ -5,7 +5,7 @@ from agentlab.agents import dynamic_prompting as dp
 from agentlab.llm.llm_configs import CHAT_MODEL_ARGS_DICT
 
 from .generic_agent import GenericAgentArgs
-from .tmlr_config import BASE_FLAGS
+from .evva_config import BASE_FLAGS
 
 # The submitted live evaluation uses this configuration only.
 GPT5_MINI_FLAGS = BASE_FLAGS.copy()

@@ -1,84 +1,84 @@
 source_archive,source_relative_path,bytes,decision,release_relative_path,reason
 draft_controlled,01_evva5_current_code/__pycache__/pack_evva_v6_1_final_code_small.cpython-310.pyc,16772,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,01_evva5_current_code/build_evva3_source_complete_handoff_safe.sh,8751,excluded,,internal draft or unrelated source artifact not selected by manuscript
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2_baseline_v5m_reproduction.cpython-310.pyc,13098,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2_compare_primary_vs_v5m.cpython-310.pyc,5183,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2_exploratory_residual_core.cpython-310.pyc,14243,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2b_calibration_gated_residual.cpython-310.pyc,14888,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2b_compare_vs_v5m.cpython-310.pyc,3973,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2c_targeted_robustness_audit.cpython-310.pyc,11831,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2c_value_available_residual.cpython-310.pyc,14740,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2d_quantile_band_refinement.cpython-310.pyc,11699,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2e_lexicographic_boundary.cpython-310.pyc,12703,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2f_signal_space_audit.cpython-310.pyc,11218,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2f_structural_lexicographic.cpython-310.pyc,12766,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2g_calibration_compression_gate.cpython-310.pyc,15120,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2g_confirmatory_eval_5000_5299.cpython-310.pyc,16390,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2g_confirmatory_eval_5000_5299_v2.cpython-310.pyc,17399,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2g_r2_independent_eval.cpython-310.pyc,17380,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2g_r2_r3_pooled_primary_audit.cpython-310.pyc,18722,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2g_r3_independent_eval.cpython-310.pyc,17380,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2g_robustness_audit.cpython-310.pyc,15601,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2h_r4_r5_final_confirmatory_eval.cpython-310.pyc,16232,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva2h_severe_plateau_gate.cpython-310.pyc,5838,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_evva3_priority0_patch_nested_bootstrap.cpython-310.pyc,15255,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_finish_clean_winner_and_claim_audit.cpython-310.pyc,4859,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_finish_consolidate_and_stability.cpython-310.pyc,20178,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate1_budget_conditioned_router.cpython-310.pyc,7201,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate1_pairwise_bootstrap.cpython-310.pyc,6427,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate1_rank_tuned_router.cpython-310.pyc,10180,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate1_value_router.cpython-310.pyc,15718,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate2_mismatch_analysis.cpython-310.pyc,10197,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate3a_true_heldout_simple.cpython-310.pyc,6635,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate3b_qcost_heterogeneity.cpython-310.pyc,10046,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate4_paper_ready_summary.cpython-310.pyc,7592,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate4a_formal_misalignment_slices.cpython-310.pyc,12453,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate5_pseudo_multiopportunity.cpython-310.pyc,11230,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate5b_openclaw_grouped_multiopportunity.cpython-310.pyc,16021,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_gate5c_controlled_allocation_contrast.cpython-310.pyc,12735,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_related_work_score_family_comparison.cpython-310.pyc,13139,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_budget_curve_delta_summary.cpython-310.pyc,1924,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_eval_clean_candidate_pool_exactB.cpython-310.pyc,7517,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_eval_clean_candidate_pool_exactB_tiesafe.cpython-310.pyc,7445,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_expected_value_decomposition_gate5b.cpython-310.pyc,6641,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_full_agent_candidate_collector.cpython-310.pyc,10223,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_full_agent_exactB_eval.cpython-310.pyc,15016,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_full_agent_exactB_eval_tieaware.cpython-310.pyc,10215,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_full_agent_regime_consistency_eval.cpython-310.pyc,9634,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_full_agent_seed_block_consistency.cpython-310.pyc,5383,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_full_agent_smoke_diagnose.cpython-310.pyc,7745,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_full_agent_strict_schema_audit.cpython-310.pyc,3469,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_hidden_issue_pilot_existing_pool.cpython-310.pyc,5877,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v4_stratified_quadrant_eval_existing_pool.cpython-310.pyc,8033,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5_calibrated_evva_controlled_eval.cpython-310.pyc,15325,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5_controlled_reconciliation_and_final_decision.cpython-310.pyc,10443,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5b_budget_aware_controlled_eval.cpython-310.pyc,28293,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5b_controlled_regimescore_bootstrap.cpython-310.pyc,10141,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5b_large_budget_aware_eval.cpython-310.pyc,18391,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5b_large_regimescore_bootstrap.cpython-310.pyc,13525,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5c_bah_bootstrap.cpython-310.pyc,10836,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5c_budget_aware_H_eval.cpython-310.pyc,11720,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5d_all_baseline_full_budget_audit.cpython-310.pyc,13257,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5d_budget_gated_evva_eval.cpython-310.pyc,12277,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5d_evva_bg_bootstrap.cpython-310.pyc,11814,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5e_budget_gated_value_evva_eval.cpython-310.pyc,17129,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5f2_raw_envelope_feasibility.cpython-310.pyc,11711,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5f_full_budget_feasibility_audit.cpython-310.pyc,12483,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5g_portfolio_selector_eval.cpython-310.pyc,14198,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5h_stable_budget_policy_eval.cpython-310.pyc,12634,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5i_degeneracy_aware_evva_eval.cpython-310.pyc,14853,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5j_fair_v5i_degeneracy_aware_evva_eval.cpython-310.pyc,14868,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5j_rebuild_fair_controlled_prm.cpython-310.pyc,10243,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5k_signal_availability_gated_evva.cpython-310.pyc,12793,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5l_signal_availability_gated_evva.cpython-310.pyc,12803,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5m_signal_availability_gated_evva.cpython-310.pyc,13092,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5n_v5m_integrity_audit.cpython-310.pyc,9752,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5o_v5m_bootstrap_ci.cpython-310.pyc,15902,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5p_v5m_tie_salt_sensitivity.cpython-310.pyc,13396,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5q_controlled50_robustness.cpython-310.pyc,10445,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5r_random_baseline_audit.cpython-310.pyc,8160,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5s_method_provenance_audit.cpython-310.pyc,10366,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/__pycache__/aaai_v5t_final_audited_memo.cpython-310.pyc,10039,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2_baseline_v5m_reproduction.cpython-310.pyc,13098,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2_compare_primary_vs_v5m.cpython-310.pyc,5183,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2_exploratory_residual_core.cpython-310.pyc,14243,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2b_calibration_gated_residual.cpython-310.pyc,14888,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2b_compare_vs_v5m.cpython-310.pyc,3973,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2c_targeted_robustness_audit.cpython-310.pyc,11831,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2c_value_available_residual.cpython-310.pyc,14740,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2d_quantile_band_refinement.cpython-310.pyc,11699,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2e_lexicographic_boundary.cpython-310.pyc,12703,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2f_signal_space_audit.cpython-310.pyc,11218,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2f_structural_lexicographic.cpython-310.pyc,12766,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2g_calibration_compression_gate.cpython-310.pyc,15120,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2g_confirmatory_eval_5000_5299.cpython-310.pyc,16390,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2g_confirmatory_eval_5000_5299_v2.cpython-310.pyc,17399,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2g_r2_independent_eval.cpython-310.pyc,17380,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2g_r2_r3_pooled_primary_audit.cpython-310.pyc,18722,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2g_r3_independent_eval.cpython-310.pyc,17380,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2g_robustness_audit.cpython-310.pyc,15601,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2h_r4_r5_final_confirmatory_eval.cpython-310.pyc,16232,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva2h_severe_plateau_gate.cpython-310.pyc,5838,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva3_priority0_patch_nested_bootstrap.cpython-310.pyc,15255,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_finish_clean_winner_and_claim_audit.cpython-310.pyc,4859,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_finish_consolidate_and_stability.cpython-310.pyc,20178,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate1_budget_conditioned_router.cpython-310.pyc,7201,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate1_pairwise_bootstrap.cpython-310.pyc,6427,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate1_rank_tuned_router.cpython-310.pyc,10180,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate1_value_router.cpython-310.pyc,15718,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate2_mismatch_analysis.cpython-310.pyc,10197,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate3a_true_heldout_simple.cpython-310.pyc,6635,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate3b_qcost_heterogeneity.cpython-310.pyc,10046,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate4_paper_ready_summary.cpython-310.pyc,7592,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate4a_formal_misalignment_slices.cpython-310.pyc,12453,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate5_pseudo_multiopportunity.cpython-310.pyc,11230,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate5b_openclaw_grouped_multiopportunity.cpython-310.pyc,16021,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_gate5c_controlled_allocation_contrast.cpython-310.pyc,12735,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_related_work_score_family_comparison.cpython-310.pyc,13139,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_budget_curve_delta_summary.cpython-310.pyc,1924,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_eval_clean_candidate_pool_exactB.cpython-310.pyc,7517,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_eval_clean_candidate_pool_exactB_tiesafe.cpython-310.pyc,7445,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_expected_value_decomposition_gate5b.cpython-310.pyc,6641,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_full_agent_candidate_collector.cpython-310.pyc,10223,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_full_agent_exactB_eval.cpython-310.pyc,15016,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_full_agent_exactB_eval_tieaware.cpython-310.pyc,10215,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_full_agent_regime_consistency_eval.cpython-310.pyc,9634,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_full_agent_seed_block_consistency.cpython-310.pyc,5383,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_full_agent_smoke_diagnose.cpython-310.pyc,7745,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_full_agent_strict_schema_audit.cpython-310.pyc,3469,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_hidden_issue_pilot_existing_pool.cpython-310.pyc,5877,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v4_stratified_quadrant_eval_existing_pool.cpython-310.pyc,8033,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5_calibrated_evva_controlled_eval.cpython-310.pyc,15325,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5_controlled_reconciliation_and_final_decision.cpython-310.pyc,10443,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5b_budget_aware_controlled_eval.cpython-310.pyc,28293,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5b_controlled_regimescore_bootstrap.cpython-310.pyc,10141,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5b_large_budget_aware_eval.cpython-310.pyc,18391,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5b_large_regimescore_bootstrap.cpython-310.pyc,13525,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5c_bah_bootstrap.cpython-310.pyc,10836,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5c_budget_aware_H_eval.cpython-310.pyc,11720,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5d_all_baseline_full_budget_audit.cpython-310.pyc,13257,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5d_budget_gated_evva_eval.cpython-310.pyc,12277,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5d_evva_bg_bootstrap.cpython-310.pyc,11814,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5e_budget_gated_value_evva_eval.cpython-310.pyc,17129,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5f2_raw_envelope_feasibility.cpython-310.pyc,11711,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5f_full_budget_feasibility_audit.cpython-310.pyc,12483,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5g_portfolio_selector_eval.cpython-310.pyc,14198,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5h_stable_budget_policy_eval.cpython-310.pyc,12634,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5i_degeneracy_aware_evva_eval.cpython-310.pyc,14853,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5j_fair_v5i_degeneracy_aware_evva_eval.cpython-310.pyc,14868,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5j_rebuild_fair_controlled_prm.cpython-310.pyc,10243,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5k_signal_availability_gated_evva.cpython-310.pyc,12793,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5l_signal_availability_gated_evva.cpython-310.pyc,12803,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5m_signal_availability_gated_evva.cpython-310.pyc,13092,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5n_v5m_integrity_audit.cpython-310.pyc,9752,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5o_v5m_bootstrap_ci.cpython-310.pyc,15902,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5p_v5m_tie_salt_sensitivity.cpython-310.pyc,13396,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5q_controlled50_robustness.cpython-310.pyc,10445,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5r_random_baseline_audit.cpython-310.pyc,8160,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5s_method_provenance_audit.cpython-310.pyc,10366,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,01_evva5_current_code/code/__pycache__/evva_v5t_final_audited_memo.cpython-310.pyc,10039,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,01_evva5_current_code/code/__pycache__/aggregate_runs (copy).cpython-310.pyc,5359,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,01_evva5_current_code/code/__pycache__/aggregate_runs.cpython-310.pyc,5813,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,01_evva5_current_code/code/__pycache__/aggregate_runs_before_paper_expansion.cpython-310.pyc,5835,excluded,,compiled Python bytecode (may embed personal paths; source available)
@@ -107,88 +107,88 @@ draft_controlled,01_evva5_current_code/code/__pycache__/sandbox_env_before_struc
 draft_controlled,01_evva5_current_code/code/__pycache__/sandbox_step.cpython-310.pyc,961,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,01_evva5_current_code/code/__pycache__/save_run_outputs.cpython-310.pyc,2230,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,01_evva5_current_code/code/__pycache__/start_run.cpython-310.pyc,2000,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,01_evva5_current_code/code/aaai_evva2_baseline_v5m_reproduction.py,12021,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2_compare_primary_vs_v5m.py,8212,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2_exploratory_residual_core.py,14953,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2b_calibration_gated_residual.py,16070,included_unmodified,controlled_openclaw/original_source/aaai_evva2b_calibration_gated_residual.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_evva2b_compare_vs_v5m.py,5516,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2c_targeted_robustness_audit.py,15977,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2c_value_available_residual.py,15487,included_unmodified,controlled_openclaw/original_source/aaai_evva2c_value_available_residual.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_evva2d_quantile_band_refinement.py,19653,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2e_lexicographic_boundary.py,18204,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2f_signal_space_audit.py,13674,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2f_structural_lexicographic.py,18805,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2g_calibration_compression_gate.py,23339,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2g_confirmatory_eval_5000_5299.py,23224,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2g_confirmatory_eval_5000_5299_v2.py,24842,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2g_r2_independent_eval.py,24834,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2g_r2_r3_pooled_primary_audit.py,28783,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2g_r3_independent_eval.py,24834,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2g_robustness_audit.py,22591,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_evva2h_r4_r5_final_confirmatory_eval.py,27193,included_unmodified,controlled_openclaw/original_source/aaai_evva2h_r4_r5_final_confirmatory_eval.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_evva2h_severe_plateau_gate.py,8119,included_unmodified,controlled_openclaw/original_source/aaai_evva2h_severe_plateau_gate.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_evva3_priority0_patch_nested_bootstrap.py,19322,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_finish_clean_winner_and_claim_audit.py,4577,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_finish_consolidate_and_stability.py,23130,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate1_budget_conditioned_router.py,7770,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate1_pairwise_bootstrap.py,6574,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate1_rank_tuned_router.py,9742,included_unmodified,controlled_openclaw/original_source/aaai_gate1_rank_tuned_router.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_gate1_value_router.py,18612,included_unmodified,controlled_openclaw/original_source/aaai_gate1_value_router.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_gate2_mismatch_analysis.py,11982,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate3a_true_heldout_simple.py,5329,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate3b_qcost_heterogeneity.py,11439,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate4_paper_ready_summary.py,7897,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate4a_formal_misalignment_slices.py,12513,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate5_pseudo_multiopportunity.py,11424,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate5b_openclaw_grouped_multiopportunity.py,16995,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_gate5c_controlled_allocation_contrast.py,15439,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_related_work_score_family_comparison.py,18437,included_unmodified,controlled_openclaw/original_source/aaai_related_work_score_family_comparison.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_v4_budget_curve_delta_summary.py,1764,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v4_eval_clean_candidate_pool_exactB.py,7476,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v4_eval_clean_candidate_pool_exactB_tiesafe.py,8180,included_unmodified,controlled_openclaw/original_source/aaai_v4_eval_clean_candidate_pool_exactB_tiesafe.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_v4_expected_value_decomposition_gate5b.py,6115,included_unmodified,controlled_openclaw/original_source/aaai_v4_expected_value_decomposition_gate5b.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_v4_full_agent_candidate_collector.py,14635,included_unmodified,controlled_openclaw/original_source/aaai_v4_full_agent_candidate_collector.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_v4_full_agent_exactB_eval.py,17196,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v4_full_agent_exactB_eval_tieaware.py,12866,included_unmodified,controlled_openclaw/original_source/aaai_v4_full_agent_exactB_eval_tieaware.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_v4_full_agent_regime_consistency_eval.py,10408,included_unmodified,controlled_openclaw/original_source/aaai_v4_full_agent_regime_consistency_eval.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_v4_full_agent_seed_block_consistency.py,4537,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v4_full_agent_smoke_diagnose.py,6705,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v4_full_agent_strict_schema_audit.py,2464,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v4_hidden_issue_pilot_existing_pool.py,5729,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v4_stratified_quadrant_eval_existing_pool.py,7707,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5_calibrated_evva_controlled_eval.py,17169,included_unmodified,controlled_openclaw/original_source/aaai_v5_calibrated_evva_controlled_eval.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_v5_controlled_reconciliation_and_final_decision.py,9722,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5b_budget_aware_controlled_eval.py,30688,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5b_controlled_regimescore_bootstrap.py,8969,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5b_large_budget_aware_eval.py,17089,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5b_large_regimescore_bootstrap.py,13195,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5c_bah_bootstrap.py,9948,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5c_budget_aware_H_eval.py,9461,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5d_all_baseline_full_budget_audit.py,13945,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5d_budget_gated_evva_eval.py,11765,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5d_evva_bg_bootstrap.py,10900,included_unmodified,controlled_openclaw/original_source/aaai_v5d_evva_bg_bootstrap.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_v5e_budget_gated_value_evva_eval.py,17976,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5f2_raw_envelope_feasibility.py,11800,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5f_full_budget_feasibility_audit.py,13057,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5g_portfolio_selector_eval.py,14833,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5h_stable_budget_policy_eval.py,13816,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5i_degeneracy_aware_evva_eval.py,14741,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5j_fair_v5i_degeneracy_aware_evva_eval.py,14747,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5j_rebuild_fair_controlled_prm.py,9149,included_unmodified,controlled_openclaw/original_source/aaai_v5j_rebuild_fair_controlled_prm.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/aaai_v5k_signal_availability_gated_evva.py,11635,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5l_signal_availability_gated_evva.py,11764,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5m_signal_availability_gated_evva.py,12012,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5n_v5m_integrity_audit.py,10404,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5o_v5m_bootstrap_ci.py,16014,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5p_v5m_tie_salt_sensitivity.py,11929,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5q_controlled50_robustness.py,9306,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5r_random_baseline_audit.py,7319,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5s_method_provenance_audit.py,11188,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/aaai_v5t_final_audited_memo.py,10508,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2_baseline_v5m_reproduction.py,12021,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2_compare_primary_vs_v5m.py,8212,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2_exploratory_residual_core.py,14953,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2b_calibration_gated_residual.py,16070,included_unmodified,controlled_openclaw/supplementary_code/evva2b_calibration_gated_residual.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva2b_compare_vs_v5m.py,5516,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2c_targeted_robustness_audit.py,15977,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2c_value_available_residual.py,15487,included_unmodified,controlled_openclaw/supplementary_code/evva2c_value_available_residual.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva2d_quantile_band_refinement.py,19653,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2e_lexicographic_boundary.py,18204,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2f_signal_space_audit.py,13674,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2f_structural_lexicographic.py,18805,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2g_calibration_compression_gate.py,23339,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2g_confirmatory_eval_5000_5299.py,23224,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2g_confirmatory_eval_5000_5299_v2.py,24842,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2g_r2_independent_eval.py,24834,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2g_r2_r3_pooled_primary_audit.py,28783,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2g_r3_independent_eval.py,24834,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2g_robustness_audit.py,22591,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva2h_r4_r5_final_confirmatory_eval.py,27193,included_unmodified,controlled_openclaw/supplementary_code/evva2h_r4_r5_final_confirmatory_eval.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva2h_severe_plateau_gate.py,8119,included_unmodified,controlled_openclaw/supplementary_code/evva2h_severe_plateau_gate.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva3_priority0_patch_nested_bootstrap.py,19322,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_finish_clean_winner_and_claim_audit.py,4577,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_finish_consolidate_and_stability.py,23130,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate1_budget_conditioned_router.py,7770,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate1_pairwise_bootstrap.py,6574,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate1_rank_tuned_router.py,9742,included_unmodified,controlled_openclaw/supplementary_code/evva_gate1_rank_tuned_router.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_gate1_value_router.py,18612,included_unmodified,controlled_openclaw/supplementary_code/evva_gate1_value_router.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_gate2_mismatch_analysis.py,11982,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate3a_true_heldout_simple.py,5329,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate3b_qcost_heterogeneity.py,11439,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate4_paper_ready_summary.py,7897,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate4a_formal_misalignment_slices.py,12513,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate5_pseudo_multiopportunity.py,11424,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate5b_openclaw_grouped_multiopportunity.py,16995,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_gate5c_controlled_allocation_contrast.py,15439,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_related_work_score_family_comparison.py,18437,included_unmodified,controlled_openclaw/supplementary_code/evva_related_work_score_family_comparison.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_v4_budget_curve_delta_summary.py,1764,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v4_eval_clean_candidate_pool_exactB.py,7476,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v4_eval_clean_candidate_pool_exactB_tiesafe.py,8180,included_unmodified,controlled_openclaw/supplementary_code/evva_v4_eval_clean_candidate_pool_exactB_tiesafe.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_v4_expected_value_decomposition_gate5b.py,6115,included_unmodified,controlled_openclaw/supplementary_code/evva_v4_expected_value_decomposition_gate5b.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_v4_full_agent_candidate_collector.py,14635,included_unmodified,controlled_openclaw/supplementary_code/evva_v4_full_agent_candidate_collector.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_v4_full_agent_exactB_eval.py,17196,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v4_full_agent_exactB_eval_tieaware.py,12866,included_unmodified,controlled_openclaw/supplementary_code/evva_v4_full_agent_exactB_eval_tieaware.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_v4_full_agent_regime_consistency_eval.py,10408,included_unmodified,controlled_openclaw/supplementary_code/evva_v4_full_agent_regime_consistency_eval.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_v4_full_agent_seed_block_consistency.py,4537,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v4_full_agent_smoke_diagnose.py,6705,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v4_full_agent_strict_schema_audit.py,2464,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v4_hidden_issue_pilot_existing_pool.py,5729,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v4_stratified_quadrant_eval_existing_pool.py,7707,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5_calibrated_evva_controlled_eval.py,17169,included_unmodified,controlled_openclaw/supplementary_code/evva_v5_calibrated_evva_controlled_eval.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_v5_controlled_reconciliation_and_final_decision.py,9722,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5b_budget_aware_controlled_eval.py,30688,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5b_controlled_regimescore_bootstrap.py,8969,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5b_large_budget_aware_eval.py,17089,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5b_large_regimescore_bootstrap.py,13195,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5c_bah_bootstrap.py,9948,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5c_budget_aware_H_eval.py,9461,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5d_all_baseline_full_budget_audit.py,13945,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5d_budget_gated_evva_eval.py,11765,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5d_evva_bg_bootstrap.py,10900,included_unmodified,controlled_openclaw/supplementary_code/evva_v5d_evva_bg_bootstrap.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_v5e_budget_gated_value_evva_eval.py,17976,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5f2_raw_envelope_feasibility.py,11800,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5f_full_budget_feasibility_audit.py,13057,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5g_portfolio_selector_eval.py,14833,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5h_stable_budget_policy_eval.py,13816,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5i_degeneracy_aware_evva_eval.py,14741,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5j_fair_v5i_degeneracy_aware_evva_eval.py,14747,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5j_rebuild_fair_controlled_prm.py,9149,included_unmodified,controlled_openclaw/supplementary_code/evva_v5j_rebuild_fair_controlled_prm.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/evva_v5k_signal_availability_gated_evva.py,11635,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5l_signal_availability_gated_evva.py,11764,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5m_signal_availability_gated_evva.py,12012,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5n_v5m_integrity_audit.py,10404,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5o_v5m_bootstrap_ci.py,16014,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5p_v5m_tie_salt_sensitivity.py,11929,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5q_controlled50_robustness.py,9306,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5r_random_baseline_audit.py,7319,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5s_method_provenance_audit.py,11188,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
+draft_controlled,01_evva5_current_code/code/evva_v5t_final_audited_memo.py,10508,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/aggregate_runs (copy).py,5439,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/aggregate_runs.py,5782,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/aggregate_runs_before_paper_expansion.py,5782,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/branch_replay.py,4334,included_unmodified,controlled_openclaw/original_source/branch_replay.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/branch_replay.py,4334,included_unmodified,controlled_openclaw/supplementary_code/branch_replay.py,Included: direct manuscript use or live lineage
 draft_controlled,01_evva5_current_code/code/calibrate_thresholds.py,2121,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/episodes/ep_oc_harm_smoke_001/_env/backup/config_backup.json,111,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/episodes/ep_oc_harm_smoke_001/_env/state.json,1623,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
@@ -198,7 +198,7 @@ draft_controlled,01_evva5_current_code/code/episodes/ep_oc_harm_smoke_001/main/t
 draft_controlled,01_evva5_current_code/code/episodes/ep_oc_harm_smoke_001/main/template.txt,63,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/make_matched_budget_runlist.py,2168,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/oc_finalize_episode.py,4007,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/oc_reset_and_hint.py,1836,included_unmodified,controlled_openclaw/original_source/oc_reset_and_hint.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/oc_reset_and_hint.py,1836,included_unmodified,controlled_openclaw/supplementary_code/oc_reset_and_hint.py,Included: direct manuscript use or live lineage
 draft_controlled,01_evva5_current_code/code/oc_reset_and_hint_before_dep_sensitive_heldout.py,1810,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/oc_reset_and_hint_before_structural_harm.py,1344,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/prompts/always_verify.txt,683,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
@@ -212,19 +212,19 @@ draft_controlled,01_evva5_current_code/code/run_agenttrace_dep20_batch.py,1183,e
 draft_controlled,01_evva5_current_code/code/run_branch_baselines.py,12183,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/run_check.py,454,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/run_phaseB_selected.sh,2046,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/run_policy_episode.py,12913,included_unmodified,controlled_openclaw/original_source/run_policy_episode.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/run_policy_episode.py,12913,included_unmodified,controlled_openclaw/supplementary_code/run_policy_episode.py,Included: direct manuscript use or live lineage
 draft_controlled,01_evva5_current_code/code/run_policy_episode_before_structural_harm.py,12087,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/run_policy_episode_before_paper_expansion.py,9408,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/run_runlist.py,2200,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/run_seed_sweep.sh,1754,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/run_two_stage_baselines.py,9217,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/sandbox_env.py,18605,included_unmodified,controlled_openclaw/original_source/sandbox_env.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/sandbox_env.py,18605,included_unmodified,controlled_openclaw/supplementary_code/sandbox_env.py,Included: direct manuscript use or live lineage
 draft_controlled,01_evva5_current_code/code/sandbox_env_before_dep_sensitive_heldout.py,17500,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/sandbox_env_before_q_sensitivity.py,17402,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
 draft_controlled,01_evva5_current_code/code/sandbox_env_before_structural_harm.py,13477,excluded,,"unrelated, superseded or duplicated alternative algorithm/experiment"
-draft_controlled,01_evva5_current_code/code/sandbox_step.py,653,included_unmodified,controlled_openclaw/original_source/sandbox_step.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/save_run_outputs.py,2641,included_unmodified,controlled_openclaw/original_source/save_run_outputs.py,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/code/start_run.py,2035,included_unmodified,controlled_openclaw/original_source/start_run.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/sandbox_step.py,653,included_unmodified,controlled_openclaw/supplementary_code/sandbox_step.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/save_run_outputs.py,2641,included_unmodified,controlled_openclaw/supplementary_code/save_run_outputs.py,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/code/start_run.py,2035,included_unmodified,controlled_openclaw/supplementary_code/start_run.py,Included: direct manuscript use or live lineage
 draft_controlled,01_evva5_current_code/pack_evva_v6_1_final_code_FAST.sh,11984,excluded,,internal draft or unrelated source artifact not selected by manuscript
 draft_controlled,01_evva5_current_code/pack_evva_v6_1_final_code_small.py,24599,excluded,,internal draft or unrelated source artifact not selected by manuscript
 draft_controlled,01_evva5_current_code/run_evva2_prepare_baseline_safe.sh,6542,excluded,,historical internal workflow outside manuscript-focused selection
@@ -232,8 +232,8 @@ draft_controlled,01_evva5_current_code/run_evva2_primary_safe.sh,24576,excluded,
 draft_controlled,01_evva5_current_code/run_evva2b_calibration_gated_safe.sh,21003,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva2g_r2_r3_independent_eval_safe.sh,6655,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva2g_replication_collection_safe.sh,8105,excluded,,historical internal workflow outside manuscript-focused selection
-draft_controlled,01_evva5_current_code/run_evva2h_r4_r5_collection_safe.sh,23240,included_unmodified,frozen_openclaw/original_workflows/run_evva2h_r4_r5_collection_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva2h_r4_r5_final_eval_safe.sh,30846,included_unmodified,frozen_openclaw/original_workflows/run_evva2h_r4_r5_final_eval_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva2h_r4_r5_collection_safe.sh,23240,included_unmodified,frozen_openclaw/workflows/run_evva2h_r4_r5_collection_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva2h_r4_r5_final_eval_safe.sh,30846,included_unmodified,frozen_openclaw/workflows/run_evva2h_r4_r5_final_eval_safe.sh,Included: direct manuscript use or live lineage
 draft_controlled,01_evva5_current_code/run_evva3_priority0_stage1_audit_safe.sh,5843,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva3_priority0_stage2_clean_rerun_safe.sh,12922,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva3_priority0_stage2_corrected_bootstrap_safe.sh,9848,excluded,,historical internal workflow outside manuscript-focused selection
@@ -245,83 +245,83 @@ draft_controlled,01_evva5_current_code/run_evva3_stage0_stage2_audit_safe.sh,282
 draft_controlled,01_evva5_current_code/run_evva3_stage2b_rootcause_trace_safe.sh,16023,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva3_stage2c_upstream_seed_preflight_safe.sh,18381,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva3_stage3a_existing_python_safe.sh,5546,excluded,,historical internal workflow outside manuscript-focused selection
-draft_controlled,01_evva5_current_code/run_evva3_stage3a_lobo_screen_safe.sh,40001,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage3a_lobo_screen_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage3b_matched_ablation_safe.sh,36514,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage3b_matched_ablation_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage3c_unified_v5m_safe.sh,41150,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage3c_unified_v5m_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage3d_controlled_fair_safe.sh,36639,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage3d_controlled_fair_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage3a_lobo_screen_safe.sh,40001,included_unmodified,frozen_openclaw/workflows/run_evva3_stage3a_lobo_screen_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage3b_matched_ablation_safe.sh,36514,included_unmodified,frozen_openclaw/workflows/run_evva3_stage3b_matched_ablation_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage3c_unified_v5m_safe.sh,41150,included_unmodified,frozen_openclaw/workflows/run_evva3_stage3c_unified_v5m_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage3d_controlled_fair_safe.sh,36639,included_unmodified,frozen_openclaw/workflows/run_evva3_stage3d_controlled_fair_safe.sh,Included: direct manuscript use or live lineage
 draft_controlled,01_evva5_current_code/run_evva3_stage3d_r1_seed_type_fix_safe.sh,4792,excluded,,historical internal workflow outside manuscript-focused selection
-draft_controlled,01_evva5_current_code/run_evva3_stage4a_factorization_audit_safe.sh,14434,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage4a_factorization_audit_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage4a_factorization_audit_safe.sh,14434,included_unmodified,frozen_openclaw/workflows/run_evva3_stage4a_factorization_audit_safe.sh,Included: direct manuscript use or live lineage
 draft_controlled,01_evva5_current_code/run_evva3_stage4b_sar_feasibility_safe.sh,66272,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva3_stage4c_plateau_repair_safe.sh,33024,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva3_stage4d_boundary_repairability_audit_safe.sh,25213,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva3_stage4e_pareto_dominance_repair_safe.sh,34986,excluded,,historical internal workflow outside manuscript-focused selection
-draft_controlled,01_evva5_current_code/run_evva3_stage4f_final_method_freeze_safe.sh,16087,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage4f_final_method_freeze_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage5a_c1_c2_collection_safe.sh,24842,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage5a_c1_c2_collection_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage5b_c1_c2_confirmatory_eval_safe.sh,50827,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage5b_c1_c2_confirmatory_eval_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage6a_branch_fidelity_audit_safe.sh,31303,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage6a_branch_fidelity_audit_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage6b_deterministic_replay_safe.sh,36694,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage6b_deterministic_replay_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage6c_final_ablation_robustness_safe.sh,45622,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage6c_final_ablation_robustness_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage6d_pairwise_case_analysis_safe.sh,24090,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage6d_pairwise_case_analysis_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage6e_pooled_case_decomposition_safe.sh,26470,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage6e_pooled_case_decomposition_safe.sh,Included: direct manuscript use or live lineage
-draft_controlled,01_evva5_current_code/run_evva3_stage6f_budget_selection_mechanism_safe.sh,55948,included_unmodified,frozen_openclaw/original_workflows/run_evva3_stage6f_budget_selection_mechanism_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage4f_final_method_freeze_safe.sh,16087,included_unmodified,frozen_openclaw/workflows/run_evva3_stage4f_final_method_freeze_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage5a_c1_c2_collection_safe.sh,24842,included_unmodified,frozen_openclaw/workflows/run_evva3_stage5a_c1_c2_collection_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage5b_c1_c2_confirmatory_eval_safe.sh,50827,included_unmodified,frozen_openclaw/workflows/run_evva3_stage5b_c1_c2_confirmatory_eval_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage6a_branch_fidelity_audit_safe.sh,31303,included_unmodified,frozen_openclaw/workflows/run_evva3_stage6a_branch_fidelity_audit_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage6b_deterministic_replay_safe.sh,36694,included_unmodified,frozen_openclaw/workflows/run_evva3_stage6b_deterministic_replay_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage6c_final_ablation_robustness_safe.sh,45622,included_unmodified,frozen_openclaw/workflows/run_evva3_stage6c_final_ablation_robustness_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage6d_pairwise_case_analysis_safe.sh,24090,included_unmodified,frozen_openclaw/workflows/run_evva3_stage6d_pairwise_case_analysis_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage6e_pooled_case_decomposition_safe.sh,26470,included_unmodified,frozen_openclaw/workflows/run_evva3_stage6e_pooled_case_decomposition_safe.sh,Included: direct manuscript use or live lineage
+draft_controlled,01_evva5_current_code/run_evva3_stage6f_budget_selection_mechanism_safe.sh,55948,included_unmodified,frozen_openclaw/workflows/run_evva3_stage6f_budget_selection_mechanism_safe.sh,Included: direct manuscript use or live lineage
 draft_controlled,01_evva5_current_code/run_evva3_stage7a_final_evidence_package_safe.sh,59239,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,01_evva5_current_code/run_evva_v2_execution_all.sh,27296,excluded,,historical internal workflow outside manuscript-focused selection
 draft_controlled,02_evva5_robust_stress_records/EVVA_ROBUST_SAG_AUTHORITATIVE_PATHS.env,580,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
 draft_controlled,02_evva5_robust_stress_records/EVVA_V6_1_FINAL_CODE_SMALL_20260807/01_evva5_current_code/run_evva3_stage4f_final_method_freeze_safe.sh,16087,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
 draft_controlled,02_evva5_robust_stress_records/EVVA_V6_1_FINAL_CODE_SMALL_20260807/01_evva5_current_code/run_evva3_stage6c_final_ablation_robustness_safe.sh,45622,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva2_exploratory_20260713/code_snapshot/__pycache__/aaai_evva2c_value_available_residual_PRE_RUN.cpython-310.pyc,14801,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,02_evva5_robust_stress_records/aaai_evva2_exploratory_20260713/code_snapshot/aaai_evva2c_value_available_residual_PRE_RUN.py,15487,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_environment/evva3_python_requirements_freeze.txt,99,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_priority0_nested_bootstrap_correction_20260715_150114/code/__pycache__/aaai_evva3_stage6c_ablation_robustness_corrected.cpython-310.pyc,23648,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_priority0_nested_bootstrap_correction_20260715_150114/code/__pycache__/original_aaai_evva3_stage6c_ablation_robustness.cpython-310.pyc,23407,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_priority0_nested_bootstrap_correction_20260715_150114/code/aaai_evva3_stage6c_ablation_robustness_corrected.py,39199,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_priority0_nested_bootstrap_correction_20260715_150114/code/original_aaai_evva3_stage6c_ablation_robustness.py,38364,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_priority0_nested_bootstrap_correction_20260715_150114/reports/aaai_evva3_stage6c_ablation_robustness_control_flow_excerpts.txt,2302,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage4f_final_method_freeze_20260714_154218/manifests/C1_C2_PREREGISTRATION.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage4f_final_method_freeze_20260714_154218/reports/FINAL_METHOD_FREEZE.md,1100,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage5b_c1_c2_confirmatory_20260714/evidence/C1_C2_PREREGISTRATION_FROZEN.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage5b_c1_c2_confirmatory_20260714/manifests/preregistration_copy.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage6c_final_ablation_robustness_20260714/code/__pycache__/aaai_evva3_stage6c_ablation_robustness.cpython-310.pyc,23387,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage6c_final_ablation_robustness_20260714/code/aaai_evva3_stage6c_ablation_robustness.py,38364,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage6c_final_ablation_robustness_20260714/evidence/C1_C2_PREREGISTRATION.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage7a_final_evidence_package_20260714/evidence/freeze_report.md,1100,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage7a_final_evidence_package_20260714/evidence/preregistration.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva3_stage7a_final_evidence_package_20260714/tables/calibration_robustness_table.csv,284,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_authoritative_interface_extract_20260721_181436/outputs/authoritative_interface_excerpts.txt,76115,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_authoritative_interface_extract_latest.txt,69,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_robust_sag_faithfulness_preflight_20260721_173431/EVVA_ROBUST_SAG_PREFLIGHT_STATUS.txt,317,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_robust_sag_phase0_inventory_20260721_012718/EVVA_ROBUST_SAG_PHASE0_STATUS.txt,276,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_robust_sag_phase0_inventory_20260721_012718/code/__pycache__/robust_sag_phase0_inventory.cpython-310.pyc,8999,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_robust_sag_phase0_inventory_20260721_012718/code/robust_sag_phase0_inventory.py,8722,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_robust_sag_phase0_latest.txt,65,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_robust_sag_preflight_latest.txt,71,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_stage3a_authoritative_targets_20260721_185240/reports/authoritative_target_candidates.md,401639,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_evva5_stage3a_authoritative_targets_latest.txt,67,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_v5m_signal_availability_gated_evva_20260709/final_audit/v5m_final_freeze_manifest.md,1510,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,02_evva5_robust_stress_records/aaai_v5q_controlled50_robustness_20260709/reports/v5q_controlled50_robustness_report.md,1590,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva2_exploratory_20260713/code_snapshot/__pycache__/evva2c_value_available_residual_PRE_RUN.cpython-310.pyc,14801,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,02_evva5_robust_stress_records/evva2_exploratory_20260713/code_snapshot/evva2c_value_available_residual_PRE_RUN.py,15487,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_environment/evva3_python_requirements_freeze.txt,99,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_priority0_nested_bootstrap_correction_20260715_150114/code/__pycache__/evva3_stage6c_ablation_robustness_corrected.cpython-310.pyc,23648,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,02_evva5_robust_stress_records/evva3_priority0_nested_bootstrap_correction_20260715_150114/code/__pycache__/original_evva3_stage6c_ablation_robustness.cpython-310.pyc,23407,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,02_evva5_robust_stress_records/evva3_priority0_nested_bootstrap_correction_20260715_150114/code/evva3_stage6c_ablation_robustness_corrected.py,39199,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_priority0_nested_bootstrap_correction_20260715_150114/code/original_evva3_stage6c_ablation_robustness.py,38364,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_priority0_nested_bootstrap_correction_20260715_150114/reports/evva3_stage6c_ablation_robustness_control_flow_excerpts.txt,2302,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_stage4f_final_method_freeze_20260714_154218/manifests/C1_C2_PREREGISTRATION.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_stage4f_final_method_freeze_20260714_154218/reports/FINAL_METHOD_FREEZE.md,1100,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_stage5b_c1_c2_confirmatory_20260714/evidence/C1_C2_PREREGISTRATION_FROZEN.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_stage5b_c1_c2_confirmatory_20260714/manifests/preregistration_copy.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_stage6c_final_ablation_robustness_20260714/code/__pycache__/evva3_stage6c_ablation_robustness.cpython-310.pyc,23387,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,02_evva5_robust_stress_records/evva3_stage6c_final_ablation_robustness_20260714/code/evva3_stage6c_ablation_robustness.py,38364,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_stage6c_final_ablation_robustness_20260714/evidence/C1_C2_PREREGISTRATION.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_stage7a_final_evidence_package_20260714/evidence/freeze_report.md,1100,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_stage7a_final_evidence_package_20260714/evidence/preregistration.json,1871,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva3_stage7a_final_evidence_package_20260714/tables/calibration_robustness_table.csv,284,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva5_authoritative_interface_extract_20260721_181436/outputs/authoritative_interface_excerpts.txt,76115,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva5_authoritative_interface_extract_latest.txt,69,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva5_robust_sag_faithfulness_preflight_20260721_173431/EVVA_ROBUST_SAG_PREFLIGHT_STATUS.txt,317,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva5_robust_sag_phase0_inventory_20260721_012718/EVVA_ROBUST_SAG_PHASE0_STATUS.txt,276,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva5_robust_sag_phase0_inventory_20260721_012718/code/__pycache__/robust_sag_phase0_inventory.cpython-310.pyc,8999,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,02_evva5_robust_stress_records/evva5_robust_sag_phase0_inventory_20260721_012718/code/robust_sag_phase0_inventory.py,8722,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva5_robust_sag_phase0_latest.txt,65,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva5_robust_sag_preflight_latest.txt,71,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva5_stage3a_authoritative_targets_20260721_185240/reports/authoritative_target_candidates.md,401639,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva5_stage3a_authoritative_targets_latest.txt,67,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva_v5m_signal_availability_gated_evva_20260709/final_audit/v5m_final_freeze_manifest.md,1510,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
+draft_controlled,02_evva5_robust_stress_records/evva_v5q_controlled50_robustness_20260709/reports/v5q_controlled50_robustness_report.md,1590,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
 draft_controlled,02_evva5_robust_stress_records/v4_full_agent_20260707/manifests/v4_large_final_evidence_freeze.md,1017,excluded,,"research management / unrequired exploratory record, internal absolute paths or duplicates"
-draft_controlled,03_canonical_frozen_method/__pycache__/aaai_evva3_final_evva_sag.cpython-310.pyc,4293,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,03_canonical_frozen_method/__pycache__/aaai_v5m_signal_availability_gated_evva.cpython-310.pyc,13092,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,03_canonical_frozen_method/aaai_evva3_final_evva_sag.py,4638,included_unmodified,frozen_openclaw/source/aaai_evva3_final_evva_sag.py,Included: direct manuscript use or live lineage
-draft_controlled,03_canonical_frozen_method/aaai_v5m_signal_availability_gated_evva.py,12012,included_unmodified,frozen_openclaw/source/code/aaai_v5m_signal_availability_gated_evva.py,Included: direct manuscript use or live lineage
-draft_controlled,04_priority0_final_code/__pycache__/aaai_evva3_stage5b_direct_nested.cpython-310.pyc,13874,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,04_priority0_final_code/__pycache__/aaai_evva3_stage6c_6f_direct_nested.cpython-310.pyc,19415,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,04_priority0_final_code/__pycache__/aaai_evva3_stage7a_build_package_corrected.cpython-310.pyc,33009,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,04_priority0_final_code/aaai_evva3_stage5b_direct_nested.py,19818,included_unmodified,frozen_openclaw/evaluation/aaai_evva3_stage5b_direct_nested.py,Included: direct manuscript use or live lineage
-draft_controlled,04_priority0_final_code/aaai_evva3_stage6c_6f_direct_nested.py,31153,included_unmodified,frozen_openclaw/evaluation/aaai_evva3_stage6c_6f_direct_nested.py,Included: direct manuscript use or live lineage
-draft_controlled,04_priority0_final_code/aaai_evva3_stage7a_build_package_corrected.py,47988,excluded,,redundant audit packaging code or bytecode
-draft_controlled,05_original_audit_code/__pycache__/aaai_evva3_stage5b_confirmatory_eval.cpython-310.pyc,27002,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,05_original_audit_code/__pycache__/aaai_evva3_stage6c_ablation_robustness.cpython-310.pyc,23317,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,05_original_audit_code/__pycache__/aaai_evva3_stage6d_pairwise_case_analysis.cpython-310.pyc,11507,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,05_original_audit_code/__pycache__/aaai_evva3_stage6e_pooled_case_decomposition.cpython-310.pyc,12178,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,05_original_audit_code/__pycache__/aaai_evva3_stage6f_budget_selection_mechanism.cpython-310.pyc,21172,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,05_original_audit_code/__pycache__/aaai_evva3_stage7a_build_package.cpython-310.pyc,32927,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,05_original_audit_code/aaai_evva3_stage5b_confirmatory_eval.py,42325,included_unmodified,frozen_openclaw/evaluation/aaai_evva3_stage5b_confirmatory_eval.py,Included: direct manuscript use or live lineage
-draft_controlled,05_original_audit_code/aaai_evva3_stage6c_ablation_robustness.py,38364,included_unmodified,frozen_openclaw/evaluation/aaai_evva3_stage6c_ablation_robustness.py,Included: direct manuscript use or live lineage
-draft_controlled,05_original_audit_code/aaai_evva3_stage6d_pairwise_case_analysis.py,17212,included_unmodified,frozen_openclaw/evaluation/aaai_evva3_stage6d_pairwise_case_analysis.py,Included: direct manuscript use or live lineage
-draft_controlled,05_original_audit_code/aaai_evva3_stage6e_pooled_case_decomposition.py,19475,included_unmodified,frozen_openclaw/evaluation/aaai_evva3_stage6e_pooled_case_decomposition.py,Included: direct manuscript use or live lineage
-draft_controlled,05_original_audit_code/aaai_evva3_stage6f_budget_selection_mechanism.py,47953,included_unmodified,frozen_openclaw/evaluation/aaai_evva3_stage6f_budget_selection_mechanism.py,Included: direct manuscript use or live lineage
-draft_controlled,05_original_audit_code/aaai_evva3_stage7a_build_package.py,47912,excluded,,redundant audit packaging code or bytecode
+draft_controlled,03_canonical_frozen_method/__pycache__/evva3_final_evva_sag.cpython-310.pyc,4293,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,03_canonical_frozen_method/__pycache__/evva_v5m_signal_availability_gated_evva.cpython-310.pyc,13092,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,03_canonical_frozen_method/evva3_final_evva_sag.py,4638,included_unmodified,frozen_openclaw/source/evva3_final_evva_sag.py,Included: direct manuscript use or live lineage
+draft_controlled,03_canonical_frozen_method/evva_v5m_signal_availability_gated_evva.py,12012,included_unmodified,frozen_openclaw/source/code/evva_v5m_signal_availability_gated_evva.py,Included: direct manuscript use or live lineage
+draft_controlled,04_priority0_final_code/__pycache__/evva3_stage5b_direct_nested.cpython-310.pyc,13874,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,04_priority0_final_code/__pycache__/evva3_stage6c_6f_direct_nested.cpython-310.pyc,19415,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,04_priority0_final_code/__pycache__/evva3_stage7a_build_package_corrected.cpython-310.pyc,33009,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,04_priority0_final_code/evva3_stage5b_direct_nested.py,19818,included_unmodified,frozen_openclaw/evaluation/evva3_stage5b_direct_nested.py,Included: direct manuscript use or live lineage
+draft_controlled,04_priority0_final_code/evva3_stage6c_6f_direct_nested.py,31153,included_unmodified,frozen_openclaw/evaluation/evva3_stage6c_6f_direct_nested.py,Included: direct manuscript use or live lineage
+draft_controlled,04_priority0_final_code/evva3_stage7a_build_package_corrected.py,47988,excluded,,redundant audit packaging code or bytecode
+draft_controlled,05_original_audit_code/__pycache__/evva3_stage5b_confirmatory_eval.cpython-310.pyc,27002,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,05_original_audit_code/__pycache__/evva3_stage6c_ablation_robustness.cpython-310.pyc,23317,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,05_original_audit_code/__pycache__/evva3_stage6d_pairwise_case_analysis.cpython-310.pyc,11507,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,05_original_audit_code/__pycache__/evva3_stage6e_pooled_case_decomposition.cpython-310.pyc,12178,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,05_original_audit_code/__pycache__/evva3_stage6f_budget_selection_mechanism.cpython-310.pyc,21172,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,05_original_audit_code/__pycache__/evva3_stage7a_build_package.cpython-310.pyc,32927,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,05_original_audit_code/evva3_stage5b_confirmatory_eval.py,42325,included_unmodified,frozen_openclaw/evaluation/evva3_stage5b_confirmatory_eval.py,Included: direct manuscript use or live lineage
+draft_controlled,05_original_audit_code/evva3_stage6c_ablation_robustness.py,38364,included_unmodified,frozen_openclaw/evaluation/evva3_stage6c_ablation_robustness.py,Included: direct manuscript use or live lineage
+draft_controlled,05_original_audit_code/evva3_stage6d_pairwise_case_analysis.py,17212,included_unmodified,frozen_openclaw/evaluation/evva3_stage6d_pairwise_case_analysis.py,Included: direct manuscript use or live lineage
+draft_controlled,05_original_audit_code/evva3_stage6e_pooled_case_decomposition.py,19475,included_unmodified,frozen_openclaw/evaluation/evva3_stage6e_pooled_case_decomposition.py,Included: direct manuscript use or live lineage
+draft_controlled,05_original_audit_code/evva3_stage6f_budget_selection_mechanism.py,47953,included_unmodified,frozen_openclaw/evaluation/evva3_stage6f_budget_selection_mechanism.py,Included: direct manuscript use or live lineage
+draft_controlled,05_original_audit_code/evva3_stage7a_build_package.py,47912,excluded,,redundant audit packaging code or bytecode
 draft_controlled,06_protocol/C1_C2_PREREGISTRATION.json,1871,included_unmodified,frozen_openclaw/protocol/C1_C2_PREREGISTRATION.json,Included: direct manuscript use or live lineage
 draft_controlled,06_protocol/FINAL_METHOD_FREEZE.md,1100,included_unmodified,frozen_openclaw/protocol/FINAL_METHOD_FREEZE.md,Included: direct manuscript use or live lineage
 draft_controlled,07_corrected_results/correction_completion.json,628,excluded,,internal draft or unrelated source artifact not selected by manuscript
@@ -337,63 +337,63 @@ draft_controlled,07_corrected_results/stage6e_corrected_bootstrap.csv,1550,inclu
 draft_controlled,07_corrected_results/stage6f_corrected_bootstrap.csv,7762,included_unmodified,frozen_openclaw/results/stage6f_corrected_bootstrap.csv,Included: direct manuscript use or live lineage
 draft_controlled,07_corrected_results/supersession_notice.md,452,included_unmodified,frozen_openclaw/results/supersession_notice.md,Included: direct manuscript use or live lineage
 draft_controlled,07_corrected_results/tex_ready_final_numbers.tex,4220,excluded,,internal draft or unrelated source artifact not selected by manuscript
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_finish_clean_winner_and_claim_audit.cpython-310.pyc,4856,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_finish_consolidate_and_stability.cpython-310.pyc,20175,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate1_budget_conditioned_router.cpython-310.pyc,7198,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate1_pairwise_bootstrap.cpython-310.pyc,6424,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate1_rank_tuned_router.cpython-310.pyc,10177,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate1_value_router.cpython-310.pyc,15715,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate2_mismatch_analysis.cpython-310.pyc,10194,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate3a_true_heldout_simple.cpython-310.pyc,6632,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate3b_qcost_heterogeneity.cpython-310.pyc,10043,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate4_paper_ready_summary.cpython-310.pyc,7589,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate4a_formal_misalignment_slices.cpython-310.pyc,12450,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate5_pseudo_multiopportunity.cpython-310.pyc,11227,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate5b_openclaw_grouped_multiopportunity.cpython-310.pyc,16018,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_gate5c_controlled_allocation_contrast.cpython-310.pyc,12732,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_related_work_score_family_comparison.cpython-310.pyc,13136,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_budget_curve_delta_summary.cpython-310.pyc,1921,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_eval_clean_candidate_pool_exactB.cpython-310.pyc,7514,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_eval_clean_candidate_pool_exactB_tiesafe.cpython-310.pyc,7442,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_expected_value_decomposition_gate5b.cpython-310.pyc,6638,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_full_agent_candidate_collector.cpython-310.pyc,10220,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_full_agent_exactB_eval.cpython-310.pyc,15013,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_full_agent_exactB_eval_tieaware.cpython-310.pyc,10212,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_full_agent_regime_consistency_eval.cpython-310.pyc,9631,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_full_agent_seed_block_consistency.cpython-310.pyc,5380,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_full_agent_smoke_diagnose.cpython-310.pyc,7742,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_full_agent_strict_schema_audit.cpython-310.pyc,3466,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_hidden_issue_pilot_existing_pool.cpython-310.pyc,5874,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v4_stratified_quadrant_eval_existing_pool.cpython-310.pyc,8030,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5_calibrated_evva_controlled_eval.cpython-310.pyc,15322,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5_controlled_reconciliation_and_final_decision.cpython-310.pyc,10440,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5b_budget_aware_controlled_eval.cpython-310.pyc,28290,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5b_controlled_regimescore_bootstrap.cpython-310.pyc,10138,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5b_large_budget_aware_eval.cpython-310.pyc,18388,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5b_large_regimescore_bootstrap.cpython-310.pyc,13522,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5c_bah_bootstrap.cpython-310.pyc,10833,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5c_budget_aware_H_eval.cpython-310.pyc,11717,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5d_all_baseline_full_budget_audit.cpython-310.pyc,13254,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5d_budget_gated_evva_eval.cpython-310.pyc,12274,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5d_evva_bg_bootstrap.cpython-310.pyc,11811,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5e_budget_gated_value_evva_eval.cpython-310.pyc,17126,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5f2_raw_envelope_feasibility.cpython-310.pyc,11708,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5f_full_budget_feasibility_audit.cpython-310.pyc,12480,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5g_portfolio_selector_eval.cpython-310.pyc,14195,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5h_stable_budget_policy_eval.cpython-310.pyc,12631,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5i_degeneracy_aware_evva_eval.cpython-310.pyc,14850,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5j_fair_v5i_degeneracy_aware_evva_eval.cpython-310.pyc,14865,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5j_rebuild_fair_controlled_prm.cpython-310.pyc,10240,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5k_signal_availability_gated_evva.cpython-310.pyc,12790,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5l_signal_availability_gated_evva.cpython-310.pyc,12800,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5m_signal_availability_gated_evva.cpython-310.pyc,13089,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5n_v5m_integrity_audit.cpython-310.pyc,9749,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5o_v5m_bootstrap_ci.cpython-310.pyc,15899,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5p_v5m_tie_salt_sensitivity.cpython-310.pyc,13393,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5q_controlled50_robustness.cpython-310.pyc,10442,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5r_random_baseline_audit.cpython-310.pyc,8157,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5s_method_provenance_audit.cpython-310.pyc,10363,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/__pycache__/aaai_v5t_final_audited_memo.cpython-310.pyc,10036,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_finish_clean_winner_and_claim_audit.cpython-310.pyc,4856,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_finish_consolidate_and_stability.cpython-310.pyc,20175,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate1_budget_conditioned_router.cpython-310.pyc,7198,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate1_pairwise_bootstrap.cpython-310.pyc,6424,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate1_rank_tuned_router.cpython-310.pyc,10177,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate1_value_router.cpython-310.pyc,15715,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate2_mismatch_analysis.cpython-310.pyc,10194,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate3a_true_heldout_simple.cpython-310.pyc,6632,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate3b_qcost_heterogeneity.cpython-310.pyc,10043,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate4_paper_ready_summary.cpython-310.pyc,7589,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate4a_formal_misalignment_slices.cpython-310.pyc,12450,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate5_pseudo_multiopportunity.cpython-310.pyc,11227,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate5b_openclaw_grouped_multiopportunity.cpython-310.pyc,16018,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_gate5c_controlled_allocation_contrast.cpython-310.pyc,12732,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_related_work_score_family_comparison.cpython-310.pyc,13136,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_budget_curve_delta_summary.cpython-310.pyc,1921,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_eval_clean_candidate_pool_exactB.cpython-310.pyc,7514,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_eval_clean_candidate_pool_exactB_tiesafe.cpython-310.pyc,7442,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_expected_value_decomposition_gate5b.cpython-310.pyc,6638,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_full_agent_candidate_collector.cpython-310.pyc,10220,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_full_agent_exactB_eval.cpython-310.pyc,15013,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_full_agent_exactB_eval_tieaware.cpython-310.pyc,10212,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_full_agent_regime_consistency_eval.cpython-310.pyc,9631,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_full_agent_seed_block_consistency.cpython-310.pyc,5380,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_full_agent_smoke_diagnose.cpython-310.pyc,7742,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_full_agent_strict_schema_audit.cpython-310.pyc,3466,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_hidden_issue_pilot_existing_pool.cpython-310.pyc,5874,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v4_stratified_quadrant_eval_existing_pool.cpython-310.pyc,8030,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5_calibrated_evva_controlled_eval.cpython-310.pyc,15322,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5_controlled_reconciliation_and_final_decision.cpython-310.pyc,10440,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5b_budget_aware_controlled_eval.cpython-310.pyc,28290,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5b_controlled_regimescore_bootstrap.cpython-310.pyc,10138,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5b_large_budget_aware_eval.cpython-310.pyc,18388,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5b_large_regimescore_bootstrap.cpython-310.pyc,13522,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5c_bah_bootstrap.cpython-310.pyc,10833,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5c_budget_aware_H_eval.cpython-310.pyc,11717,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5d_all_baseline_full_budget_audit.cpython-310.pyc,13254,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5d_budget_gated_evva_eval.cpython-310.pyc,12274,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5d_evva_bg_bootstrap.cpython-310.pyc,11811,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5e_budget_gated_value_evva_eval.cpython-310.pyc,17126,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5f2_raw_envelope_feasibility.cpython-310.pyc,11708,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5f_full_budget_feasibility_audit.cpython-310.pyc,12480,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5g_portfolio_selector_eval.cpython-310.pyc,14195,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5h_stable_budget_policy_eval.cpython-310.pyc,12631,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5i_degeneracy_aware_evva_eval.cpython-310.pyc,14850,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5j_fair_v5i_degeneracy_aware_evva_eval.cpython-310.pyc,14865,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5j_rebuild_fair_controlled_prm.cpython-310.pyc,10240,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5k_signal_availability_gated_evva.cpython-310.pyc,12790,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5l_signal_availability_gated_evva.cpython-310.pyc,12800,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5m_signal_availability_gated_evva.cpython-310.pyc,13089,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5n_v5m_integrity_audit.cpython-310.pyc,9749,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5o_v5m_bootstrap_ci.cpython-310.pyc,15899,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5p_v5m_tie_salt_sensitivity.cpython-310.pyc,13393,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5q_controlled50_robustness.cpython-310.pyc,10442,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5r_random_baseline_audit.cpython-310.pyc,8157,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5s_method_provenance_audit.cpython-310.pyc,10363,excluded,,compiled Python bytecode (may embed personal paths; source available)
+draft_controlled,08_legacy_v5m_code/code/__pycache__/evva_v5t_final_audited_memo.cpython-310.pyc,10036,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,08_legacy_v5m_code/code/__pycache__/aggregate_runs (copy).cpython-310.pyc,5356,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,08_legacy_v5m_code/code/__pycache__/aggregate_runs.cpython-310.pyc,5810,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,08_legacy_v5m_code/code/__pycache__/aggregate_runs_before_paper_expansion.cpython-310.pyc,5832,excluded,,compiled Python bytecode (may embed personal paths; source available)
@@ -422,63 +422,63 @@ draft_controlled,08_legacy_v5m_code/code/__pycache__/sandbox_env_before_structur
 draft_controlled,08_legacy_v5m_code/code/__pycache__/sandbox_step.cpython-310.pyc,958,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,08_legacy_v5m_code/code/__pycache__/save_run_outputs.cpython-310.pyc,2227,excluded,,compiled Python bytecode (may embed personal paths; source available)
 draft_controlled,08_legacy_v5m_code/code/__pycache__/start_run.cpython-310.pyc,1997,excluded,,compiled Python bytecode (may embed personal paths; source available)
-draft_controlled,08_legacy_v5m_code/code/aaai_finish_clean_winner_and_claim_audit.py,4577,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_finish_consolidate_and_stability.py,23130,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate1_budget_conditioned_router.py,7770,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate1_pairwise_bootstrap.py,6574,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate1_rank_tuned_router.py,9742,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate1_value_router.py,18612,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate2_mismatch_analysis.py,11982,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate3a_true_heldout_simple.py,5329,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate3b_qcost_heterogeneity.py,11439,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate4_paper_ready_summary.py,7897,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate4a_formal_misalignment_slices.py,12513,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate5_pseudo_multiopportunity.py,11424,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate5b_openclaw_grouped_multiopportunity.py,16995,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_gate5c_controlled_allocation_contrast.py,15439,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_related_work_score_family_comparison.py,18437,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_budget_curve_delta_summary.py,1764,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_eval_clean_candidate_pool_exactB.py,7476,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_eval_clean_candidate_pool_exactB_tiesafe.py,8180,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_expected_value_decomposition_gate5b.py,6115,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_full_agent_candidate_collector.py,14635,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_full_agent_exactB_eval.py,17196,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_full_agent_exactB_eval_tieaware.py,12866,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_full_agent_regime_consistency_eval.py,10408,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_full_agent_seed_block_consistency.py,4537,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_full_agent_smoke_diagnose.py,6705,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_full_agent_strict_schema_audit.py,2464,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_hidden_issue_pilot_existing_pool.py,5729,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v4_stratified_quadrant_eval_existing_pool.py,7707,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5_calibrated_evva_controlled_eval.py,17169,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5_controlled_reconciliation_and_final_decision.py,9722,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5b_budget_aware_controlled_eval.py,30688,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5b_controlled_regimescore_bootstrap.py,8969,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5b_large_budget_aware_eval.py,17089,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5b_large_regimescore_bootstrap.py,13195,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5c_bah_bootstrap.py,9948,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5c_budget_aware_H_eval.py,9461,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5d_all_baseline_full_budget_audit.py,13945,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5d_budget_gated_evva_eval.py,11765,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5d_evva_bg_bootstrap.py,10900,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5e_budget_gated_value_evva_eval.py,17976,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5f2_raw_envelope_feasibility.py,11800,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5f_full_budget_feasibility_audit.py,13057,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5g_portfolio_selector_eval.py,14833,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5h_stable_budget_policy_eval.py,13816,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5i_degeneracy_aware_evva_eval.py,14741,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5j_fair_v5i_degeneracy_aware_evva_eval.py,14747,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5j_rebuild_fair_controlled_prm.py,9149,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5k_signal_availability_gated_evva.py,11635,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5l_signal_availability_gated_evva.py,11764,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5m_signal_availability_gated_evva.py,12012,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5n_v5m_integrity_audit.py,10404,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5o_v5m_bootstrap_ci.py,16014,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5p_v5m_tie_salt_sensitivity.py,11929,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5q_controlled50_robustness.py,9306,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5r_random_baseline_audit.py,7319,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5s_method_provenance_audit.py,11188,excluded,,"duplicated historical implementation, not needed for manuscript"
-draft_controlled,08_legacy_v5m_code/code/aaai_v5t_final_audited_memo.py,10508,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_finish_clean_winner_and_claim_audit.py,4577,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_finish_consolidate_and_stability.py,23130,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate1_budget_conditioned_router.py,7770,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate1_pairwise_bootstrap.py,6574,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate1_rank_tuned_router.py,9742,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate1_value_router.py,18612,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate2_mismatch_analysis.py,11982,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate3a_true_heldout_simple.py,5329,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate3b_qcost_heterogeneity.py,11439,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate4_paper_ready_summary.py,7897,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate4a_formal_misalignment_slices.py,12513,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate5_pseudo_multiopportunity.py,11424,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate5b_openclaw_grouped_multiopportunity.py,16995,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_gate5c_controlled_allocation_contrast.py,15439,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_related_work_score_family_comparison.py,18437,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_budget_curve_delta_summary.py,1764,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_eval_clean_candidate_pool_exactB.py,7476,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_eval_clean_candidate_pool_exactB_tiesafe.py,8180,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_expected_value_decomposition_gate5b.py,6115,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_full_agent_candidate_collector.py,14635,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_full_agent_exactB_eval.py,17196,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_full_agent_exactB_eval_tieaware.py,12866,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_full_agent_regime_consistency_eval.py,10408,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_full_agent_seed_block_consistency.py,4537,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_full_agent_smoke_diagnose.py,6705,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_full_agent_strict_schema_audit.py,2464,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_hidden_issue_pilot_existing_pool.py,5729,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v4_stratified_quadrant_eval_existing_pool.py,7707,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5_calibrated_evva_controlled_eval.py,17169,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5_controlled_reconciliation_and_final_decision.py,9722,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5b_budget_aware_controlled_eval.py,30688,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5b_controlled_regimescore_bootstrap.py,8969,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5b_large_budget_aware_eval.py,17089,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5b_large_regimescore_bootstrap.py,13195,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5c_bah_bootstrap.py,9948,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5c_budget_aware_H_eval.py,9461,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5d_all_baseline_full_budget_audit.py,13945,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5d_budget_gated_evva_eval.py,11765,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5d_evva_bg_bootstrap.py,10900,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5e_budget_gated_value_evva_eval.py,17976,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5f2_raw_envelope_feasibility.py,11800,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5f_full_budget_feasibility_audit.py,13057,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5g_portfolio_selector_eval.py,14833,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5h_stable_budget_policy_eval.py,13816,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5i_degeneracy_aware_evva_eval.py,14741,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5j_fair_v5i_degeneracy_aware_evva_eval.py,14747,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5j_rebuild_fair_controlled_prm.py,9149,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5k_signal_availability_gated_evva.py,11635,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5l_signal_availability_gated_evva.py,11764,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5m_signal_availability_gated_evva.py,12012,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5n_v5m_integrity_audit.py,10404,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5o_v5m_bootstrap_ci.py,16014,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5p_v5m_tie_salt_sensitivity.py,11929,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5q_controlled50_robustness.py,9306,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5r_random_baseline_audit.py,7319,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5s_method_provenance_audit.py,11188,excluded,,"duplicated historical implementation, not needed for manuscript"
+draft_controlled,08_legacy_v5m_code/code/evva_v5t_final_audited_memo.py,10508,excluded,,"duplicated historical implementation, not needed for manuscript"
 draft_controlled,08_legacy_v5m_code/code/aggregate_runs (copy).py,5439,excluded,,"duplicated historical implementation, not needed for manuscript"
 draft_controlled,08_legacy_v5m_code/code/aggregate_runs.py,5782,excluded,,"duplicated historical implementation, not needed for manuscript"
 draft_controlled,08_legacy_v5m_code/code/aggregate_runs_before_paper_expansion.py,5782,excluded,,"duplicated historical implementation, not needed for manuscript"
@@ -521,8 +521,8 @@ draft_controlled,08_legacy_v5m_code/code/save_run_outputs.py,2641,excluded,,"dup
 draft_controlled,08_legacy_v5m_code/code/start_run.py,2035,excluded,,"duplicated historical implementation, not needed for manuscript"
 draft_controlled,09_environment/environment.txt,787,excluded,,internal draft or unrelated source artifact not selected by manuscript
 draft_controlled,10_table2_authoritative_lineage/TABLE2_LINEAGE.md,2873,excluded,,"historical lineage duplicate, current table code retained"
-draft_controlled,10_table2_authoritative_lineage/code/aaai_v5j_rebuild_fair_controlled_prm.py,9149,excluded,,"historical lineage duplicate, current table code retained"
-draft_controlled,10_table2_authoritative_lineage/code/aaai_v5m_signal_availability_gated_evva.py,12012,excluded,,"historical lineage duplicate, current table code retained"
+draft_controlled,10_table2_authoritative_lineage/code/evva_v5j_rebuild_fair_controlled_prm.py,9149,excluded,,"historical lineage duplicate, current table code retained"
+draft_controlled,10_table2_authoritative_lineage/code/evva_v5m_signal_availability_gated_evva.py,12012,excluded,,"historical lineage duplicate, current table code retained"
 draft_controlled,10_table2_authoritative_lineage/input/fair_controlled_train_eval_rows.csv,109003,excluded,,"historical lineage duplicate, current table code retained"
 draft_controlled,10_table2_authoritative_lineage/manifest/SHA256SUMS.txt,1556,excluded,,old checksums/manifest include stale names or absolute paths; regenerated for release
 draft_controlled,10_table2_authoritative_lineage/manifest/v5m_lock_manifest.md,756,excluded,,"historical lineage duplicate, current table code retained"

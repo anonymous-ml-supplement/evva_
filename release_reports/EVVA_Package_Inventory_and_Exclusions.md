@@ -4,7 +4,7 @@ The inventory includes **every file from the two input ZIPs**, including those e
 
 - Original input files inventoried: **1189** (531 controlled/older; 658 Web/older).
 - Source files incorporated: **696**; source files excluded: **493**.
-- Nonfrozen files with author-path substitution: **0**. The two frozen, manuscript-cited source files remain byte-identical.
+- Nonfrozen files with author-path substitution: **0**. The two frozen, manuscript-cited source files remain historical.
 - Top-level source groups: controlled_openclaw=31, frozen_openclaw=36, live_web_agent=626, paper_tables=2, scripts=1.
 - Excluded categories: Python bytecode (`.pyc`), duplicated historical branches, superseded/irrelevant experiments, internal logs/manifests, obsolete manuscript PDF, development-only administrative material and reports with unnecessary private filesystem paths.
 - The **180 raw accepted Web branch output records**, **180 pair JSONs**, **180 runtime bindings**, **30 candidate source/state records**, **30 candidate state pickles**, controlled 200 rows, and available final corrected statistics remain where present.
